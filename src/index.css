@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 500;
+  }
+}
+
+/* Aurora Gradient Architecture (Brief v3 & Diagnostic Spec) */
+.aurora-container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.aurora-blob {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}
+
+.aurora-blob-1 {
+  background: #4C1D95;
+  opacity: 0.16;
+  filter: blur(120px);
+  -webkit-filter: blur(120px);
+  width: 550px;
+  height: 550px;
+  top: 5%;
+  left: 10%;
+  animation: aurora-drift-1 18s ease-in-out infinite;
+}
+
+.aurora-blob-2 {
+  background: #F5A623;
+  opacity: 0.14;
+  filter: blur(140px);
+  -webkit-filter: blur(140px);
+  width: 650px;
+  height: 650px;
+  top: 25%;
+  left: 45%;
+  animation: aurora-pulse-2 14s ease-in-out infinite;
+  animation-delay: 4s;
+}
+
+.aurora-blob-3 {
+  background: #2A114B;
+  opacity: 0.16;
+  filter: blur(100px);
+  -webkit-filter: blur(100px);
+  width: 500px;
+  height: 500px;
+  bottom: 5%;
+  right: 15%;
+  animation: aurora-drift-3 20s ease-in-out infinite;
+  animation-delay: 8s;
+}
+
+@keyframes aurora-drift-1 {
+  0%, 100% {
+    transform: translate(0px, 0px);
+  }
+  33% {
+    transform: translate(50px, -40px);
+  }
+  66% {
+    transform: translate(-40px, 35px);
+  }
+}
+
+@keyframes aurora-pulse-2 {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.14;
+  }
+  50% {
+    transform: scale(1.18);
+    opacity: 0.09;
+  }
+}
+
+@keyframes aurora-drift-3 {
+  0%, 100% {
+    transform: translate(0px, 0px);
+  }
+  33% {
+    transform: translate(-45px, 35px);
+  }
+  66% {
+    transform: translate(35px, -30px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aurora-blob,
+  .aurora-blob-1,
+  .aurora-blob-2,
+  .aurora-blob-3 {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* Hero Product Preview Card Responsive Rotation & Floating Polish */
+.hero-preview-card {
+  transform: rotate(0deg);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .hero-preview-card {
+    transform: rotate(1deg);
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-preview-card {
+    transform: rotate(2.5deg);
+  }
+  .hero-preview-card:hover {
+    transform: rotate(0deg) translateY(-4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-preview-card {
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+@layer utilities {
+  /* True Frosted Glassmorphism with Specular Highlights */
+  .glass-panel-light {
+    background: rgba(255, 255, 255, 0.60) !important;
+    backdrop-filter: blur(24px) saturate(190%) !important;
+    -webkit-backdrop-filter: blur(24px) saturate(190%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.85) !important;
+    box-shadow: 0 20px 40px -15px rgba(42, 17, 75, 0.08), inset 0 1px 2px 0 rgba(255, 255, 255, 0.95) !important;
+  }
+
+  .glass-panel-dark {
+    background: rgba(22, 6, 44, 0.70) !important;
+    backdrop-filter: blur(30px) saturate(200%) !important;
+    -webkit-backdrop-filter: blur(30px) saturate(200%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.14) !important;
+    box-shadow: 0 30px 70px -10px rgba(0, 0, 0, 0.6), inset 0 1px 1px 0 rgba(255, 255, 255, 0.20) !important;
+  }
+
+  .glass-pill {
+    background: rgba(255, 255, 255, 0.75) !important;
+    backdrop-filter: blur(20px) saturate(190%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(190%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.90) !important;
+    box-shadow: 0 12px 35px -8px rgba(42, 17, 75, 0.12), inset 0 1px 2px 0 rgba(255, 255, 255, 1) !important;
+  }
+
+  .glass-pill-dark {
+    background: rgba(255, 255, 255, 0.07) !important;
+    backdrop-filter: blur(16px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.25), 0 10px 25px -5px rgba(0, 0, 0, 0.3) !important;
+  }
+}
+
+/* Print-specific stylesheet overrides for 1-click clean PDF export */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  header,
+  nav,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  pre {
+    border: none !important;
+    background: transparent !important;
+    font-size: 10pt !important;
+    white-space: pre-wrap !important;
+  }
+}
