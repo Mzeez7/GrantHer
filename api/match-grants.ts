@@ -1,26 +1,14 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import crypto from 'crypto';
-import fs from 'fs';
-import path from 'path';
 import { getAnthropicClient } from './claude.js';
 import type { DiagnosticInput, Grant, MatchedGrant } from '../src/types/index.js';
+import grantsData from '../src/data/grants.json';
 
 // In-memory response cache keyed on SHA-256 hash of DiagnosticInput
 const matchCache = new Map<string, { data: MatchedGrant[]; timestamp: number }>();
 const CACHE_TTL_MS = 1000 * 60 * 60 * 24; // 24 hours
 
-// Load grants dataset
-function loadGrants(): Grant[] {
-  try {
-    const grantsPath = path.resolve(process.cwd(), 'src/data/grants.json');
-    if (fs.existsSync(grantsPath)) {
-      return JSON.parse(fs.readFileSync(grantsPath, 'utf8'));
-    }
-  } catch (e) {
-    console.error('Error loading grants from disk:', e);
-  }
-  return [];
-}
+const allGrants: Grant[] = grantsData as Grant[];
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Access-Control-Allow-Credentials', 'true');
@@ -60,8 +48,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     });
   }
 
-  const allGrants = loadGrants();
-  if (!allGrants.length) {
+  if (!allGrants || !allGrants.length) {
     return res.status(500).json({ error: 'Grants database could not be loaded.' });
   }
 

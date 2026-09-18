@@ -8,7 +8,7 @@ export function getAnthropicClient(): { client: Anthropic; model: string } {
 
   const client = new Anthropic({ apiKey });
   
-  // Use Sonnet 4.5 as primary model for structured reasoning and grant roadmap generation
+  // Use primary model configured or Sonnet 4.5
   const model = process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-5-20250929';
 
   return { client, model };
