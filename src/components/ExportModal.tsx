@@ -72,7 +72,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
         {/* Modal Top Bar */}
         <div className="p-5 sm:p-6 border-b border-brand-slate-200 flex items-center justify-between bg-white">
           <div className="flex items-center space-x-3.5">
-            <img src="/logo.png" alt="GrantHer" className="h-10 w-auto object-contain" />
+            <img src="/logo-dark.png" alt="GrantHer" className="h-9 w-auto object-contain" />
             <div className="border-l border-brand-slate-200 pl-3.5">
               <h3 id="export-modal-title" className="text-base sm:text-lg font-bold text-brand-purple-950 font-serif">
                 Publication-Ready Executive Brief
@@ -108,7 +108,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
             {/* Document Header */}
             <div className="border-b border-slate-200 pb-5 mb-6">
               <div className="flex items-center justify-between gap-4 mb-3">
-                <img src="/logo.png" alt="GrantHer" className="h-10 w-auto object-contain" />
+                <img src="/logo-dark.png" alt="GrantHer" className="h-9 sm:h-10 w-auto object-contain" />
                 <span className="text-xs font-mono text-slate-400 font-medium">
                   {dateStr}
                 </span>

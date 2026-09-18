@@ -21,9 +21,9 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Brand Logo */}
           <div className="flex items-center cursor-pointer" onClick={onHome || onReset}>
             <img
-              src="/logo.png"
+              src="/logo-dark.png"
               alt="GrantHer — Empowering Women. Securing Futures."
-              className="h-10 sm:h-11 w-auto object-contain"
+              className="h-9 sm:h-10 w-auto object-contain"
             />
           </div>
 
