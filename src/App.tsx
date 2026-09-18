@@ -266,7 +266,7 @@ export const App: React.FC = () => {
           <footer className="border-t border-brand-slate-200 bg-white py-6 text-center text-xs text-brand-slate-500">
             <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
               <div className="flex items-center space-x-2.5">
-                <img src="/logo.png" alt="GrantHer" className="h-7 sm:h-8 w-auto object-contain rounded-md shadow-sm" />
+                <img src="/logo.png" alt="GrantHer" className="h-6 sm:h-7 w-auto object-contain" />
                 <span className="font-semibold text-brand-purple-950">
                   — Non-Dilutive Capital Intelligence for Women Founders
                 </span>
@@ -360,7 +360,7 @@ export const App: React.FC = () => {
           <footer className="border-t border-brand-slate-200 bg-white py-6 text-center text-xs text-brand-slate-500">
             <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
               <div className="flex items-center space-x-2.5">
-                <img src="/logo.png" alt="GrantHer" className="h-7 sm:h-8 w-auto object-contain rounded-md shadow-sm" />
+                <img src="/logo.png" alt="GrantHer" className="h-6 sm:h-7 w-auto object-contain" />
                 <span className="font-semibold text-brand-purple-950">
                   — Non-Dilutive Capital Intelligence for Women Founders
                 </span>

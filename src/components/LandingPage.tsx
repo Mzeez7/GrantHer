@@ -24,11 +24,13 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 py-3 flex items-center justify-between">
           {/* Brand Mark */}
           <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <img
-              src="/logo.png"
-              alt="GrantHer — Empowering Women. Securing Futures."
-              className="h-10 sm:h-11 w-auto object-contain rounded-xl shadow-sm hover:opacity-95 transition-opacity"
-            />
+            <div className="bg-white px-3 py-1.5 rounded-xl shadow-sm flex items-center border border-white/20 hover:opacity-95 transition-opacity">
+              <img
+                src="/logo.png"
+                alt="GrantHer — Empowering Women. Securing Futures."
+                className="h-8 sm:h-9 w-auto object-contain"
+              />
+            </div>
           </div>
 
           {/* Right Action: Explore Grants */}
@@ -539,7 +541,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               <img
                 src="/logo.png"
                 alt="GrantHer — Empowering Women. Securing Futures."
-                className="h-11 sm:h-12 w-auto object-contain rounded-xl shadow-sm"
+                className="h-11 sm:h-12 w-auto object-contain"
               />
             </div>
             <p className="text-sm text-brand-slate-600 max-w-md font-sans leading-relaxed">

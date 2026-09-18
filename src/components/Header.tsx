@@ -23,7 +23,7 @@ export const Header: React.FC<HeaderProps> = ({
             <img
               src="/logo.png"
               alt="GrantHer — Empowering Women. Securing Futures."
-              className="h-11 sm:h-12 w-auto object-contain rounded-xl shadow-md hover:opacity-95 transition-opacity"
+              className="h-10 sm:h-11 w-auto object-contain hover:opacity-95 transition-opacity"
             />
           </div>
 
