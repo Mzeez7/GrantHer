@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Database } from 'lucide-react';
+import { Database } from 'lucide-react';
 
 interface HeaderProps {
   currentStep?: number;
@@ -19,15 +19,12 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 py-3">
           {/* Brand Logo */}
-          <div className="flex items-center space-x-3 cursor-pointer" onClick={onHome || onReset}>
-            <div className="w-10 h-10 rounded-xl bg-brand-purple-900 flex items-center justify-center shadow-md shadow-brand-purple-900/10 text-brand-gold-400 font-bold border border-brand-purple-800">
-              <Shield className="w-5 h-5 text-brand-gold-400" />
-            </div>
-            <div>
-              <span className="text-xl font-extrabold tracking-tight text-brand-purple-950 font-sans">
-                Grant<span className="text-brand-gold-500">Her</span>
-              </span>
-            </div>
+          <div className="flex items-center cursor-pointer" onClick={onHome || onReset}>
+            <img
+              src="/logo.png"
+              alt="GrantHer — Empowering Women. Securing Futures."
+              className="h-10 sm:h-11 w-auto object-contain"
+            />
           </div>
 
           {/* Right Action: Explore Grants */}

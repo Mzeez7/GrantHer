@@ -264,10 +264,13 @@ export const App: React.FC = () => {
             />
           </main>
           <footer className="border-t border-brand-slate-200 bg-white py-6 text-center text-xs text-brand-slate-500">
-            <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-              <span className="font-semibold text-brand-purple-950">
-                Grant<span className="text-brand-gold-500">Her</span> — Non-Dilutive Capital Intelligence for Women Founders
-              </span>
+            <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+              <div className="flex items-center space-x-2.5">
+                <img src="/logo.png" alt="GrantHer" className="h-6 sm:h-7 w-auto object-contain" />
+                <span className="font-semibold text-brand-purple-950">
+                  — Non-Dilutive Capital Intelligence for Women Founders
+                </span>
+              </div>
               <span>
                 Curated directory of 100 verified global & regional funds
               </span>
@@ -355,14 +358,17 @@ export const App: React.FC = () => {
 
           {/* Operational Footer */}
           <footer className="border-t border-brand-slate-200 bg-white py-6 text-center text-xs text-brand-slate-500">
-            <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-              <span className="font-semibold text-brand-purple-950">
-                Grant<span className="text-brand-gold-500">Her</span> — Non-Dilutive Capital Intelligence for Women Founders
-              </span>
+            <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+              <div className="flex items-center space-x-2.5">
+                <img src="/logo.png" alt="GrantHer" className="h-6 sm:h-7 w-auto object-contain" />
+                <span className="font-semibold text-brand-purple-950">
+                  — Non-Dilutive Capital Intelligence for Women Founders
+                </span>
+              </div>
               <span>
-                Curated seed registry of 100 verified global & regional funds • Ready for 1-click Vercel deployment
+                Curated seed registry of 100 verified global & regional funds
               </span>
-              <span className="text-brand-slate-400">
+              <span className="text-brand-slate-400 hidden lg:inline">
                 Zero equity surrendered • 12-week milestone frameworks
               </span>
             </div>

@@ -4,7 +4,6 @@ import {
   ShieldCheck,
   CheckCircle2,
   FileCheck,
-  Landmark,
   Calendar,
   Database,
 } from 'lucide-react';
@@ -24,14 +23,13 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       <header className="sticky top-0 z-50 bg-brand-purple-800 border-b border-white/10 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 py-3 flex items-center justify-between">
           {/* Brand Mark */}
-          <div className="flex items-center space-x-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <div className="w-10 h-10 rounded-2xl bg-brand-purple-950 flex items-center justify-center text-brand-gold-400 font-bold shadow-sm border border-white/10">
-              <Landmark className="w-5 h-5 text-brand-gold-400" />
-            </div>
-            <div>
-              <span className="text-2xl font-serif font-semibold tracking-tight text-white">
-                Grant<span className="text-brand-gold-400">Her</span>
-              </span>
+          <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+            <div className="bg-white px-3 py-1.5 rounded-xl shadow-sm flex items-center border border-white/20 hover:opacity-95 transition-opacity">
+              <img
+                src="/logo.png"
+                alt="GrantHer — Empowering Women. Securing Futures."
+                className="h-8 sm:h-9 w-auto object-contain"
+              />
             </div>
           </div>
 
@@ -539,13 +537,12 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       <footer className="bg-white py-14 px-4 sm:px-6 lg:px-8 border-t border-brand-slate-200">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-2 space-y-4">
-            <div className="flex items-center space-x-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-              <div className="w-8 h-8 rounded-xl bg-brand-purple-950 flex items-center justify-center text-brand-gold-400 font-bold border border-white/10">
-                <Landmark className="w-4 h-4 text-brand-gold-400" />
-              </div>
-              <span className="text-xl font-serif font-semibold tracking-tight text-brand-purple-950">
-                Grant<span className="text-brand-gold-500">Her</span>
-              </span>
+            <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+              <img
+                src="/logo.png"
+                alt="GrantHer — Empowering Women. Securing Futures."
+                className="h-11 sm:h-12 w-auto object-contain"
+              />
             </div>
             <p className="text-sm text-brand-slate-600 max-w-md font-sans leading-relaxed">
               The non-dilutive grant discovery and milestone roadmap engine built to help women founders secure non-repayable capital with confidence.

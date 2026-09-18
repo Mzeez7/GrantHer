@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { X, Printer, Download, Copy, Shield, FileText } from 'lucide-react';
+import { X, Printer, Download, Copy, Shield } from 'lucide-react';
 import { CommitteeRoadmap } from '../types';
 import { copyToClipboard, downloadFile } from '../lib/exportUtils';
 import { fireCelebration } from '../lib/celebration';
@@ -72,10 +72,8 @@ export const ExportModal: React.FC<ExportModalProps> = ({
         {/* Modal Top Bar */}
         <div className="p-5 sm:p-6 border-b border-brand-slate-200 flex items-center justify-between bg-white">
           <div className="flex items-center space-x-3.5">
-            <div className="w-10 h-10 rounded-xl bg-brand-purple-900 flex items-center justify-center text-brand-gold-400">
-              <FileText className="w-5 h-5" />
-            </div>
-            <div>
+            <img src="/logo.png" alt="GrantHer" className="h-10 w-auto object-contain" />
+            <div className="border-l border-brand-slate-200 pl-3.5">
               <h3 id="export-modal-title" className="text-base sm:text-lg font-bold text-brand-purple-950 font-serif">
                 Publication-Ready Executive Brief
               </h3>
@@ -109,13 +107,14 @@ export const ExportModal: React.FC<ExportModalProps> = ({
           <div className="bg-white shadow-xl border border-slate-200 rounded-xl p-8 sm:p-12 max-w-3xl mx-auto font-sans text-slate-800 leading-relaxed print:shadow-none print:border-none print:p-0">
             {/* Document Header */}
             <div className="border-b border-slate-200 pb-5 mb-6">
-              <div className="flex items-center justify-between gap-4 mb-2">
-                <span className="text-xs font-mono uppercase tracking-widest text-brand-purple-800 font-bold">
-                  Grant Proposal & Committee Milestone Roadmap
-                </span>
+              <div className="flex items-center justify-between gap-4 mb-3">
+                <img src="/logo.png" alt="GrantHer" className="h-10 w-auto object-contain" />
                 <span className="text-xs font-mono text-slate-400 font-medium">
                   {dateStr}
                 </span>
+              </div>
+              <div className="text-xs font-mono uppercase tracking-widest text-brand-purple-800 font-bold mb-1">
+                Grant Proposal & Committee Milestone Roadmap
               </div>
               <h1 className="text-2xl sm:text-3xl font-serif font-bold text-slate-900 tracking-tight">
                 {roadmap?.startupName || startupName}
