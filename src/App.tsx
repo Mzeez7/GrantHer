@@ -13,6 +13,7 @@ import { getTopMatches, getAllEvaluatedGrants, evaluateGrantFit, getAllGrants } 
 import { generateCommitteeRoadmap } from './lib/roadmapGenerator';
 import { fireCelebration } from './lib/celebration';
 import { getRoadmapFromNeon } from './lib/dbClient';
+import { matchGrantsWithClaude, generateRoadmapWithClaude } from './lib/apiClient';
 
 const DEFAULT_INTAKE: DiagnosticInput = {
   startupName: '',
@@ -135,42 +136,64 @@ export const App: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Step 1 -> Step 2: Run Diagnostic Intake with High-Value Interstitial
-  const handleDiagnosticSubmit = (input: DiagnosticInput) => {
+  // Step 1 -> Step 2: Run Diagnostic Intake with Claude AI Matcher
+  const handleDiagnosticSubmit = async (input: DiagnosticInput) => {
     setDiagnosticInput(input);
-    setEvaluatingMessage('Evaluating 100 Verified Funds Against Stated Baseline...');
+    setEvaluatingMessage('Evaluating 100 Verified Funds Against Stated Baseline with Claude AI...');
     setIsEvaluating(true);
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    setTimeout(() => {
-      const top = getTopMatches(input, 3);
+    try {
+      const { matches, isAiPowered } = await matchGrantsWithClaude(input);
       const all = getAllEvaluatedGrants(input);
 
-      setTopMatches(top);
+      setTopMatches(matches);
       setAllEvaluatedGrants(all);
-      setIsEvaluating(false);
       setCurrentStep(2);
       fireCelebration();
-      showToast(`Identified ${top.length} high-fit opportunities from 100 verified funds.`);
-    }, 950);
+      showToast(
+        isAiPowered
+          ? `Claude AI matched ${matches.length} high-fit opportunities with verified eligibility.`
+          : `Identified ${matches.length} high-fit opportunities from 100 verified funds.`
+      );
+    } catch (e) {
+      console.error('Diagnostic matching error:', e);
+      const fallbackTop = getTopMatches(input, 3);
+      const all = getAllEvaluatedGrants(input);
+      setTopMatches(fallbackTop);
+      setAllEvaluatedGrants(all);
+      setCurrentStep(2);
+    } finally {
+      setIsEvaluating(false);
+    }
   };
 
-  // Step 2 -> Step 3: Select Grant and Generate Committee Roadmap
-  const handleSelectGrant = (grant: MatchedGrant | Grant) => {
+  // Step 2 -> Step 3: Select Grant and Generate Committee Roadmap with Claude AI
+  const handleSelectGrant = async (grant: MatchedGrant | Grant) => {
     const matched = 'matchScore' in grant ? (grant as MatchedGrant) : evaluateGrantFit(grant, diagnosticInput);
     setSelectedGrant(matched);
-    setEvaluatingMessage(`Synthesizing 12-Week Committee Roadmap for ${matched.name}...`);
+    setEvaluatingMessage(`Synthesizing 12-Week Committee Roadmap for ${matched.name} with Claude AI...`);
     setIsEvaluating(true);
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    setTimeout(() => {
-      const generatedRoadmap = generateCommitteeRoadmap(matched, diagnosticInput);
+    try {
+      const { roadmap: generatedRoadmap, isAiPowered } = await generateRoadmapWithClaude(matched, diagnosticInput);
       setRoadmap(generatedRoadmap);
-      setIsEvaluating(false);
       setCurrentStep(3);
       fireCelebration();
-      showToast(`Synthesized 3-tranche committee roadmap for ${matched.name}.`);
-    }, 850);
+      showToast(
+        isAiPowered
+          ? `Claude AI synthesized 3-tranche committee roadmap with verified milestone deliverables.`
+          : `Synthesized 3-tranche committee roadmap for ${matched.name}.`
+      );
+    } catch (e) {
+      console.error('Roadmap generation error:', e);
+      const fallback = generateCommitteeRoadmap(matched, diagnosticInput);
+      setRoadmap(fallback);
+      setCurrentStep(3);
+    } finally {
+      setIsEvaluating(false);
+    }
   };
 
   const handleReset = () => {

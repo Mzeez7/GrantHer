@@ -1,0 +1,1440 @@
+[
+  {
+    "founder": {
+      "name": "Web3 Sector Founder",
+      "diagnostic": {
+        "startupName": "DecentralHer Labs",
+        "tagline": "Decentralized identity & micro-grants onchain for women in emerging economies",
+        "sector": "Web3 / Decentralized",
+        "stage": "Prototype / MVP",
+        "region": "Global",
+        "womenLed": true,
+        "fieldA": "Deployed smart contracts on Base testnet with 1,200 active wallet connections and audited ERC-20 tokenomics.",
+        "fieldB": "Mainnet deployment with multi-sig treasury governance and cross-chain settlement pilot for 10,000 users."
+      },
+      "grants": [
+        "grant-base-builder",
+        "grant-stellar-scf"
+      ]
+    },
+    "matches": [
+      {
+        "id": "grant-base-builder",
+        "matchScore": 95,
+        "matchedCriteria": [
+          "✓ Deployed smart contracts on Base testnet with 1,200 active wallet connections directly satisfies 'Deployed smart contracts or active consumer app live on Base testnet/mainnet'",
+          "✓ Audited ERC-20 tokenomics and active wallet onboarding demonstrate 'Novel utility advancing on-chain adoption and frictionless user onboarding'",
+          "✓ Women-led Web3 venture at Prototype/MVP stage aligns with Base's global, sector-inclusive builder support for decentralized applications"
+        ],
+        "blindspotAlert": "Must provide verified deployed contract address on Base Goerli/Sepolia or testnet for application validation; ensure GitHub repository contains clean documentation and test suite to avoid instant rejection."
+      },
+      {
+        "id": "grant-gitcoin-grants",
+        "matchScore": 78,
+        "matchedCriteria": [
+          "✓ Web3/Decentralized sector and Global region alignment with Gitcoin Grants quadratic funding eligibility",
+          "✓ Multi-sig treasury governance and community-oriented cross-chain pilot suggest potential public goods positioning with open-source licensing",
+          "✓ Women-led governance structure may mobilize advocacy from decentralized feminist and Web3 diversity communities for grassroots micro-donation support"
+        ],
+        "blindspotAlert": "Quadratic matching allocation relies heavily on number of unique verified Gitcoin Passport donors; without active community advocacy campaign and Sybil-resistant donor mobilization, matching funds will be negligible."
+      },
+      {
+        "id": "grant-radicalxchange",
+        "matchScore": 72,
+        "matchedCriteria": [
+          "✓ Multi-sig treasury governance aligns with 'Empowerment of decentralized and female-led governance collectives' criterion",
+          "✓ Women-led Web3 venture with tokenomics framework fits RadicalxChange focus on decentralized governance experimentation",
+          "✓ Global region and Web3/Decentralized sector match grant's target domains including plural tech applications"
+        ],
+        "blindspotAlert": "Requires explicit theoretical alignment with Plurality economics (Glen Weyl/Vitalik Buterin models) such as plural voting, quadratic funding mechanisms, or soulbound credentials; standard commercial token utility without plural governance features will be deemed out of scope."
+      },
+      {
+        "id": "grant-ethereum-esp",
+        "matchScore": 68,
+        "matchedCriteria": [
+          "✓ Web3/Decentralized sector with ERC-20 smart contract implementation aligns with Ethereum ecosystem support mandate",
+          "✓ Global region and public goods potential through multi-sig treasury governance fit ESP's universal ecosystem benefit criteria",
+          "✓ Women-led venture at Prototype/MVP stage demonstrates early-stage technical merit in Ethereum-compatible architecture"
+        ],
+        "blindspotAlert": "Strict public goods mandate requires free and open-source licensing without proprietary rent extraction or predatory token pre-sale mechanics; if ERC-20 tokenomics involve restricted access or value capture moats, application will be declined."
+      },
+      {
+        "id": "grant-polygon-village",
+        "matchScore": 65,
+        "matchedCriteria": [
+          "✓ Web3/Decentralized sector and Global region match Polygon Village's builder grant eligibility",
+          "✓ Cross-chain settlement pilot for 10,000 users demonstrates consumer adoption potential and frictionless user experience goals",
+          "✓ Women-led startup at Prototype/MVP stage aligns with Polygon's inclusive builder support across emerging markets"
+        ],
+        "blindspotAlert": "Grant tranches require live contract deployment on Polygon PoS, zkEVM, or CDK chains with active user telemetry tracking; current Base testnet deployment must be ported or bridged to Polygon networks for eligibility."
+      },
+      {
+        "id": "grant-stellar-scf",
+        "matchScore": 62,
+        "matchedCriteria": [
+          "✓ Cross-chain settlement pilot for 10,000 users aligns with 'Demonstrated utility solving real-world cross-border payments or inclusion problems'",
+          "✓ Global region and Fintech/Web3 overlap fit Stellar's focus on financial inclusion and decentralized payment rails",
+          "✓ Women-led venture with structured funding objective suggests capacity for clear milestone deliverable roadmap"
+        ],
+        "blindspotAlert": "Requires meaningful integration of Stellar Soroban smart contracts or payment rails with detailed public 3-tranche milestone deliverable breakdown; funds unlock sequentially only upon verified GitHub commits and live demos on Stellar network."
+      },
+      {
+        "id": "grant-arbitrum-foundation",
+        "matchScore": 58,
+        "matchedCriteria": [
+          "✓ Web3/Decentralized and Fintech sector alignment with Arbitrum Foundation's grant program focus areas",
+          "✓ Mainnet deployment with multi-sig treasury governance suggests clear milestone-based disbursement compatibility",
+          "✓ Global region and women-led venture fit Arbitrum's inclusive, ecosystem-growth mandate"
+        ],
+        "blindspotAlert": "Milestones require testnet staging proof on Arbitrum One or Arbitrum Nova and security audit review before subsequent tranche release; current Base testnet deployment must be migrated or bridged to Arbitrum infrastructure."
+      },
+      {
+        "id": "grant-chainlink-community",
+        "matchScore": 55,
+        "matchedCriteria": [
+          "✓ Cross-chain settlement pilot suggests potential utilization of Chainlink CCIP for interoperability and cross-chain messaging",
+          "✓ Web3/Decentralized sector and Global region align with Chainlink's developer ecosystem grant eligibility",
+          "✓ Multi-sig treasury governance may integrate Chainlink Automation or Data Feeds for decentralized oracle infrastructure"
+        ],
+        "blindspotAlert": "Must demonstrate deep architectural reliance on Chainlink decentralized services (CCIP, Data Feeds, Automation, or Functions); superficial or post-hoc API integration without core oracle dependency will receive low priority."
+      },
+      {
+        "id": "grant-near-foundation",
+        "matchScore": 52,
+        "matchedCriteria": [
+          "✓ Cross-chain settlement pilot and user onboarding goals align with NEAR's Chain Abstraction technology for non-crypto-native adoption",
+          "✓ Web3/Decentralized sector and Global region fit NEAR Foundation's ecosystem and AI grants mandate",
+          "✓ Women-led venture with structured technical milestones suggests capacity for testable GitHub pull requests"
+        ],
+        "blindspotAlert": "Must utilize NEAR's Chain Abstraction or open AI stack with clear technical integration; standalone forks of generic EVM contracts or Base-only deployments receive low priority without NEAR protocol engagement."
+      },
+      {
+        "id": "grant-solana-foundation",
+        "matchScore": 48,
+        "matchedCriteria": [
+          "✓ Cross-chain settlement pilot for 10,000 users aligns with Solana's high-throughput, low-latency user onboarding KPIs",
+          "✓ Web3/Decentralized and Fintech sectors match Solana Foundation's grant focus areas",
+          "✓ Global region and women-led venture fit Solana's inclusive, developer-friendly ecosystem support"
+        ],
+        "blindspotAlert": "Must demonstrate proficient Rust/Anchor smart contract code or TypeScript SDK integration on Solana; current Base testnet ERC-20 deployment is incompatible without full Solana-native re-architecture and SPL token migration."
+      },
+      {
+        "id": "grant-uniswap-foundation",
+        "matchScore": 42,
+        "matchedCriteria": [
+          "✓ ERC-20 tokenomics and smart contract deployment suggest foundational DeFi technical competence in Solidity",
+          "✓ Web3/Decentralized and Fintech sectors align with Uniswap Foundation's grant program focus",
+          "✓ Global region and women-led venture fit Uniswap's open-source developer ecosystem goals"
+        ],
+        "blindspotAlert": "Demands research, developer tooling, or infrastructure directly advancing the Uniswap v4 ecosystem with exceptional cryptographic or AMM engineering pedigree; non-Uniswap-specific business applications are out of scope."
+      },
+      {
+        "id": "grant-filecoin-foundation",
+        "matchScore": 38,
+        "matchedCriteria": [
+          "✓ Web3/Decentralized sector and Global region align with Filecoin Foundation's public goods grant eligibility",
+          "✓ Women-led venture with technical milestone focus suggests capacity for reproducible deployment scripts",
+          "✓ Multi-sig treasury governance may integrate decentralized data storage for archival or verifiable governance records"
+        ],
+        "blindspotAlert": "Requires functional proof of storage deals or FVM actor deployment on Filecoin testnet leveraging IPFS/Filecoin/FVM prior to first grant tranche release; no current IPFS or Filecoin integration evident in stated traction."
+      },
+      {
+        "id": "grant-icp-developer",
+        "matchScore": 35,
+        "matchedCriteria": [
+          "✓ Web3/Decentralized sector and Global region align with Internet Computer's developer grants program",
+          "✓ Women-led venture with smart contract deployment experience suggests technical capacity for canister development",
+          "✓ Multi-sig treasury governance may leverage ICP's threshold cryptography and decentralized governance primitives"
+        ],
+        "blindspotAlert": "Must be architected natively on ICP canisters as full-stack decentralized application running 100% on-chain; hosting frontend on traditional cloud while calling ICP only as API reduces fit score significantly."
+      },
+      {
+        "id": "grant-starknet-early",
+        "matchScore": 32,
+        "matchedCriteria": [
+          "✓ Web3/Decentralized sector and Global region align with Starknet Foundation's early builder grants",
+          "✓ Women-led venture at Prototype/MVP stage fits Starknet's early-stage developer support mandate",
+          "✓ Smart contract deployment experience suggests technical capacity for Cairo development learning curve"
+        ],
+        "blindspotAlert": "Must be written in native Cairo smart contracts utilizing zero-knowledge STARK proofs; EVM wrappers or Base testnet ERC-20 contracts without native Starknet capability are ineligible."
+      },
+      {
+        "id": "grant-sui-developer",
+        "matchScore": 30,
+        "matchedCriteria": [
+          "✓ Web3/Decentralized and Fintech sectors align with Sui Foundation's developer grants program focus",
+          "✓ Global region and women-led venture fit Sui's inclusive developer ecosystem goals",
+          "✓ User onboarding objectives (10,000 users) align with Sui's innovative zkLogin and sponsored gas transaction features"
+        ],
+        "blindspotAlert": "Requires documented proficiency in Sui Move object-centric architecture and verifiable GitHub repository commits; current ERC-20 Base testnet deployment is incompatible without full Sui Move re-architecture."
+      }
+    ],
+    "roadmaps": [
+      {
+        "grant": {
+          "id": "grant-base-builder",
+          "name": "Base Builder Grants",
+          "funder": "Base Ecosystem & Coinbase",
+          "max_amount_usd": 50000,
+          "target_stage": "Prototype / MVP",
+          "eligible_regions": [
+            "Global",
+            "Sub-Saharan Africa",
+            "North America",
+            "Europe",
+            "Latin America",
+            "South Asia"
+          ],
+          "target_sectors": [
+            "Web3 / Decentralized",
+            "Fintech",
+            "AI / Agentic",
+            "Developer Tooling"
+          ],
+          "women_led_required": false,
+          "grant_type": "Non-dilutive Grant",
+          "evaluation_criteria": [
+            "Deployed smart contracts or active consumer app live on Base testnet/mainnet",
+            "Novel utility advancing on-chain adoption and frictionless user onboarding",
+            "Open-source codebase with clean documentation and test suite"
+          ],
+          "application_url": "https://www.base.org/",
+          "typical_turnaround": "2–4 weeks",
+          "cycle_status": "Rolling / Always Open",
+          "deadline_note": "Rapid weekly rolling review on GitHub and Base community channels",
+          "blindspot_warning": "Requires verified deployed contract address on Base Goerli/Sepolia or Mainnet; paper proposals without code are instantly rejected.",
+          "category": "Web3 & Frontier Tech",
+          "synopsis": "Rapid-turnaround micro and macro grants for builders deploying meaningful consumer apps, dev tools, and financial primitives on Base."
+        },
+        "tranches": [
+          {
+            "id": 1,
+            "name": "Tranche 1: Mainnet Infrastructure & Multi-Sig Treasury",
+            "timeline": "Weeks 1–4",
+            "percentage": 30,
+            "amountUsd": 15000,
+            "phaseObjective": "Deploy production-grade smart contracts to Base Mainnet with multi-signature treasury governance and complete open-source documentation to meet Base Builder Grants' deployed contract verification requirement.",
+            "deliverables": [
+              {
+                "id": "1.1",
+                "title": "Base Mainnet Smart Contract Deployment with Verified Contract Address",
+                "description": "Migrate audited ERC-20 tokenomics and core protocol contracts from Base testnet to Base Mainnet. Deploy multi-signature treasury contract (3-of-5 Gnosis Safe) for decentralized governance. Complete Etherscan contract verification for all deployed contracts.",
+                "verificationEvidence": "Verified contract addresses on Base Mainnet Etherscan (basescan.org) with source code published; Multi-sig treasury contract address with 3-of-5 signer configuration visible on-chain; Deployment transaction hashes and block numbers documented in public GitHub repository."
+              },
+              {
+                "id": "1.2",
+                "title": "Open-Source Codebase Publication with Comprehensive Documentation",
+                "description": "Publish complete protocol codebase to public GitHub repository under MIT or Apache 2.0 license. Create README with architecture overview, deployment instructions, and integration guides. Document all smart contract functions with NatSpec comments and generate automated documentation site.",
+                "verificationEvidence": "Public GitHub repository URL with open-source license file; README.md with setup instructions, architecture diagrams, and API documentation; Auto-generated documentation site (e.g., using Docusaurus or GitBook) accessible via public URL; Minimum 80% code comment coverage verified via automated tooling."
+              },
+              {
+                "id": "1.3",
+                "title": "Automated Test Suite with 90%+ Coverage",
+                "description": "Build comprehensive Hardhat/Foundry test suite covering unit tests, integration tests, and edge cases for all mainnet contracts. Implement continuous integration pipeline with automated test execution on every commit. Achieve minimum 90% code coverage across all smart contracts.",
+                "verificationEvidence": "GitHub Actions or CircleCI workflow file showing automated test execution; Code coverage report published to Codecov or Coveralls showing 90%+ coverage; Test execution logs demonstrating all tests passing; Coverage badge displayed in repository README."
+              },
+              {
+                "id": "1.4",
+                "title": "Mainnet User Onboarding Interface (First 1,000 Users)",
+                "description": "Launch production web app with frictionless wallet connection (WalletConnect, Coinbase Wallet, MetaMask) on Base Mainnet. Implement gasless transactions via ERC-4337 account abstraction or gas sponsorship for first-time users. Onboard first 1,000 mainnet users with documented wallet addresses.",
+                "verificationEvidence": "Live production URL with Web3 wallet integration connected to Base Mainnet; On-chain transaction data showing 1,000+ unique wallet addresses interacting with deployed contracts (queryable via Dune Analytics dashboard or custom subgraph); Screenshot documentation of gasless transaction implementation; Public analytics dashboard showing daily active users."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Tranche 2: Cross-Chain Settlement Pilot & Novel Utility Features",
+            "timeline": "Weeks 5–8",
+            "percentage": 40,
+            "amountUsd": 20000,
+            "phaseObjective": "Implement cross-chain settlement infrastructure with novel utility features that advance on-chain adoption, demonstrating clear innovation in interoperability and user experience for Base ecosystem.",
+            "deliverables": [
+              {
+                "id": "2.1",
+                "title": "Cross-Chain Bridge Integration with Settlement Pilot",
+                "description": "Integrate cross-chain messaging protocol (LayerZero, Chainlink CCIP, or Axelar) to enable asset settlement between Base and at least 2 other EVM chains (Ethereum L1, Optimism, Arbitrum, or Polygon). Deploy and verify bridge contracts on all target chains. Execute minimum 50 cross-chain settlement transactions as pilot validation.",
+                "verificationEvidence": "Verified bridge contract addresses on Base Mainnet and minimum 2 additional EVM chains with Etherscan verification; On-chain transaction records showing 50+ successful cross-chain message/asset transfers with source and destination transaction hashes; Public-facing bridge interface URL; Technical documentation in GitHub explaining bridge architecture and security model."
+              },
+              {
+                "id": "2.2",
+                "title": "Novel Utility Feature: Intent-Based Transaction Batching",
+                "description": "Implement intent-based transaction system allowing users to express desired outcomes without managing complex multi-step transactions. Build smart contract infrastructure for atomic batch execution with automatic slippage protection and MEV resistance. Enable one-click complex operations (e.g., 'swap and stake', 'bridge and provide liquidity').",
+                "verificationEvidence": "Deployed intent resolver smart contract on Base Mainnet with verified source code; GitHub documentation explaining intent specification format and resolver logic; Minimum 100 successfully executed intent-based transactions recorded on-chain; Video demonstration showing user executing complex multi-step operation with single signature; Performance metrics dashboard showing average gas savings vs. manual execution."
+              },
+              {
+                "id": "2.3",
+                "title": "User Growth to 5,000 Mainnet Wallets",
+                "description": "Scale mainnet user base from 1,000 to 5,000 active wallet addresses through targeted onboarding campaigns, community partnerships, and referral mechanisms. Implement on-chain referral rewards system to incentivize organic growth. Track and report user retention and engagement metrics.",
+                "verificationEvidence": "Dune Analytics dashboard or custom subgraph showing 5,000+ unique wallet addresses with minimum 2 transactions each; On-chain referral contract data showing reward distribution to community ambassadors; Weekly active user (WAU) and monthly active user (MAU) metrics exported from analytics platform; Transaction volume chart showing sustained growth trajectory."
+              },
+              {
+                "id": "2.4",
+                "title": "Security Audit Report for Mainnet Contracts",
+                "description": "Engage reputable third-party security firm (Trail of Bits, OpenZeppelin, Consensys Diligence, or equivalent) to conduct comprehensive smart contract audit covering mainnet contracts and cross-chain bridge infrastructure. Remediate all critical and high-severity findings.",
+                "verificationEvidence": "Published security audit report from recognized firm with firm's signature and date; GitHub commit history showing remediation of identified vulnerabilities; Final audit confirmation letter or attestation stating all critical/high issues resolved; Audit report shared on protocol website and documentation."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Tranche 3: Scaling to 10K Users & Ecosystem Integration",
+            "timeline": "Weeks 9–12",
+            "percentage": 30,
+            "amountUsd": 15000,
+            "phaseObjective": "Scale protocol to 10,000+ active users, integrate deeply with Base ecosystem infrastructure, and establish sustainable on-chain growth mechanisms that demonstrate long-term viability and adoption.",
+            "deliverables": [
+              {
+                "id": "3.1",
+                "title": "Achievement of 10,000 Active Mainnet Users",
+                "description": "Reach and exceed 10,000 unique active wallet addresses on Base Mainnet through product-market fit optimization, partnership integrations, and community-driven growth. Ensure sustainable engagement with minimum 30% monthly active user rate. Document user journey analytics and retention cohorts.",
+                "verificationEvidence": "Public Dune Analytics dashboard displaying 10,000+ unique addresses with transaction activity on Base Mainnet; Monthly active user (MAU) rate of 30%+ documented in analytics export; Cohort retention analysis showing Week 4 retention rates; On-chain transaction volume exceeding 50,000 total transactions; Third-party verification tweet from Base ecosystem account or grant program acknowledging milestone."
+              },
+              {
+                "id": "3.2",
+                "title": "Base Ecosystem Integration: Coinbase Wallet & Base Name Service",
+                "description": "Achieve native integration with Coinbase Wallet featured dApp directory. Implement Base Name Service (Basename) support for human-readable addresses throughout user interface. Partner with minimum 3 established Base ecosystem protocols for composable integrations (lending protocols, DEXs, NFT platforms).",
+                "verificationEvidence": "Screenshot or URL showing DecentralHer Labs featured in Coinbase Wallet dApp browser; Code commits demonstrating Basename resolution in frontend and smart contracts; Partnership announcement posts or co-marketing materials with 3 Base ecosystem protocols; On-chain transaction data showing composable contract calls between DecentralHer contracts and partner protocols."
+              },
+              {
+                "id": "3.3",
+                "title": "On-Chain Growth Mechanism: Self-Sustaining User Incentive Engine",
+                "description": "Deploy on-chain incentive contract with automated reward distribution based on measurable user actions (transactions, referrals, liquidity provision, governance participation). Implement treasury sustainability model with fee capture mechanism ensuring long-term protocol viability without continuous external funding.",
+                "verificationEvidence": "Verified incentive distribution contract on Base Mainnet with transparent reward calculation logic; On-chain treasury dashboard showing fee revenue, reward distributions, and runway projection; Smart contract events log showing automated reward distributions to minimum 500 users; Financial model spreadsheet published in GitHub demonstrating 12-month sustainability based on current metrics."
+              },
+              {
+                "id": "3.4",
+                "title": "Final Grant Report with Impact Metrics & Base Ecosystem Contribution",
+                "description": "Produce comprehensive final report documenting all deliverables, on-chain metrics, user testimonials, and quantified contribution to Base ecosystem growth. Include lessons learned, technical architecture documentation, and roadmap for continued development. Submit to Base Builder Grants committee with supporting evidence package.",
+                "verificationEvidence": "Published final report PDF (15-25 pages) with executive summary, detailed milestone completion evidence, and impact metrics; Video presentation (5-10 minutes) demonstrating live product and showcasing key achievements; Press release or ecosystem impact blog post published on Base Mirror publication or official channels; GitHub repository releases page with v1.0 tagged release including all documented deliverables; Grant committee acknowledgment email or public recognition."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "grant": {
+          "id": "grant-stellar-scf",
+          "name": "Stellar Community Fund (SCF) Milestone Grants",
+          "funder": "Stellar Development Foundation (SDF)",
+          "max_amount_usd": 150000,
+          "target_stage": "Prototype / MVP",
+          "eligible_regions": [
+            "Global",
+            "Sub-Saharan Africa",
+            "Latin America",
+            "Europe",
+            "North America",
+            "South Asia"
+          ],
+          "target_sectors": [
+            "Fintech",
+            "Web3 / Decentralized",
+            "Supply Chain",
+            "AI / Agentic"
+          ],
+          "women_led_required": false,
+          "grant_type": "Non-dilutive Grant",
+          "evaluation_criteria": [
+            "Meaningful integration of Stellar Soroban smart contracts or payment rails",
+            "Clear 3-tranche milestone deliverable roadmap with community verification criteria",
+            "Demonstrated utility solving real-world cross-border payments or inclusion problems"
+          ],
+          "application_url": "https://communityfund.stellar.org/",
+          "typical_turnaround": "4–6 weeks",
+          "cycle_status": "Rolling / Always Open",
+          "deadline_note": "Rolling 4-week submission cycles evaluated by community review panel",
+          "blindspot_warning": "Requires detailed public milestone deliverable breakdown; funds are only unlocked sequentially upon verified GitHub commits and live demos.",
+          "category": "Web3 & Frontier Tech",
+          "synopsis": "Open grant program awarding up to $150,000 worth of non-dilutive funding in Soroban/Stellar for developers building financial infrastructure."
+        },
+        "tranches": [
+          {
+            "id": 1,
+            "name": "Stellar Soroban Integration & Multi-Sig Treasury Foundation",
+            "timeline": "Weeks 1–4",
+            "percentage": 30,
+            "amountUsd": 45000,
+            "phaseObjective": "Integrate Stellar Soroban smart contracts with existing Base testnet infrastructure, deploy multi-signature treasury governance on Stellar mainnet, and establish public verification infrastructure for milestone tracking.",
+            "deliverables": [
+              {
+                "id": "1.1",
+                "title": "Soroban Smart Contract Development & Deployment",
+                "description": "Develop and deploy Soroban smart contracts on Stellar mainnet that mirror core tokenomics logic, including multi-sig wallet contract, token bridge interface, and cross-chain settlement logic. Contracts must be production-ready and audited.",
+                "verificationEvidence": "Public GitHub repository commit hash with Soroban contract code (Rust); Deployed contract address on Stellar mainnet explorer (stellar.expert or stellarchain.io); Third-party security audit report (CertiK, Quantstamp, or equivalent) published as PDF in repo /docs folder."
+              },
+              {
+                "id": "1.2",
+                "title": "Multi-Signature Treasury Governance Implementation",
+                "description": "Deploy multi-signature treasury governance system on Stellar mainnet with 3-of-5 or 4-of-7 signatory threshold. Configure treasury to hold grant funds and operational reserves with transparent on-chain transaction logging.",
+                "verificationEvidence": "Multi-sig account address on Stellar mainnet with visible signatory configuration; Transaction history showing initial fund deposit from grant disbursement; Public documentation in GitHub /governance folder explaining signatory identities, roles, and approval workflow."
+              },
+              {
+                "id": "1.3",
+                "title": "Public Milestone Tracking Dashboard",
+                "description": "Launch a public-facing web dashboard that displays real-time progress on all grant milestones, GitHub commit activity, contract deployments, and user adoption metrics. Dashboard must be accessible without authentication.",
+                "verificationEvidence": "Live URL to public dashboard (e.g., milestones.decentralher.io); Screenshot or video walkthrough demonstrating milestone completion status, linked GitHub commits, and automated data refresh; Open-source dashboard code published to GitHub repository."
+              },
+              {
+                "id": "1.4",
+                "title": "Cross-Chain Bridge Architecture Design & Technical Specification",
+                "description": "Complete detailed technical specification document for Base-to-Stellar cross-chain asset bridge, including architecture diagrams, security model, message relay protocol, and liquidity pool design for settlement pilot.",
+                "verificationEvidence": "Published technical whitepaper or specification document (minimum 15 pages) in GitHub /docs folder; Architecture diagrams using tools like Miro, Lucidchart, or Figma with CC license; Peer review sign-off from at least two external blockchain engineers (LinkedIn profiles or GitHub handles documented)."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Mainnet Cross-Chain Settlement Pilot & Community Onboarding",
+            "timeline": "Weeks 5–8",
+            "percentage": 40,
+            "amountUsd": 60000,
+            "phaseObjective": "Launch mainnet cross-chain bridge between Base and Stellar, onboard first cohort of 2,500+ users to pilot program, and demonstrate real-world cross-border payment utility with measurable transaction volume.",
+            "deliverables": [
+              {
+                "id": "2.1",
+                "title": "Base-to-Stellar Cross-Chain Bridge Mainnet Deployment",
+                "description": "Deploy production-ready bidirectional asset bridge enabling users to transfer tokens between Base mainnet and Stellar mainnet. Bridge must support at least two asset types (native token + stablecoin like USDC) with under 5-minute settlement time.",
+                "verificationEvidence": "Live bridge interface URL with wallet connection functionality; Blockchain explorer links (Basescan and Stellar explorer) showing minimum 100 successful cross-chain transactions; GitHub release tag (e.g., v1.0-mainnet) with deployment scripts and contract addresses in README."
+              },
+              {
+                "id": "2.2",
+                "title": "User Onboarding Campaign: 2,500+ Wallet Activations",
+                "description": "Execute targeted community onboarding campaign recruiting 2,500+ unique wallet addresses to interact with the Stellar-integrated platform. Focus on underbanked demographics or cross-border payment use cases in at least 3 countries.",
+                "verificationEvidence": "On-chain analytics dashboard (Dune Analytics, Flipside, or custom) showing 2,500+ unique wallet addresses with on-chain activity; Anonymized demographic survey results (Google Forms, Typeform) with 500+ responses showing geographic distribution and use case categories; Social media campaign recap document with engagement metrics (Twitter/X impressions, Discord/Telegram member growth)."
+              },
+              {
+                "id": "2.3",
+                "title": "Cross-Border Payment Pilot: $50,000+ Transaction Volume",
+                "description": "Facilitate real-world cross-border payment transactions totaling at least $50,000 USD equivalent using Stellar payment rails. Demonstrate measurable cost savings (minimum 30% vs. traditional remittance) and settlement speed improvements.",
+                "verificationEvidence": "On-chain transaction data export (CSV or JSON) from Stellar blockchain showing aggregated payment volume with timestamp and transaction IDs; Case study document (minimum 5 pages) profiling 3–5 pilot users with anonymized testimonials, cost comparison tables, and settlement time benchmarks; Video testimonial (2–5 minutes) from at least one pilot user published on YouTube or Vimeo."
+              },
+              {
+                "id": "2.4",
+                "title": "Live Demo & Community Presentation",
+                "description": "Conduct public live demonstration of the cross-chain settlement system at a Stellar ecosystem event, webinar, or recorded video session. Demo must show end-to-end user journey from wallet connection to cross-border settlement.",
+                "verificationEvidence": "Recorded video of live demo (minimum 15 minutes) uploaded to YouTube with public visibility; Slide deck published to GitHub /presentations folder covering architecture, user flow, and pilot results; Event attendance confirmation (email confirmation, calendar invite, or event website listing) or minimum 200 live webinar attendees with registration list."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Scale to 10,000 Users & Sustainable Cross-Border Payment Utility",
+            "timeline": "Weeks 9–12",
+            "percentage": 30,
+            "amountUsd": 45000,
+            "phaseObjective": "Scale platform to 10,000+ active users, optimize cross-chain settlement infrastructure for production volume, and establish sustainable operational model addressing real-world financial inclusion challenges.",
+            "deliverables": [
+              {
+                "id": "3.1",
+                "title": "10,000 Active User Milestone with Cross-Chain Activity",
+                "description": "Grow active user base to 10,000+ unique wallet addresses with verified on-chain activity on Stellar mainnet. At least 30% of users must have completed at least one cross-chain transaction between Base and Stellar.",
+                "verificationEvidence": "On-chain analytics report (Dune Dashboard or Flipside Studio) showing 10,000+ unique wallet addresses with transaction history; Segmented user activity breakdown showing cross-chain vs. single-chain users with wallet addresses anonymized; Monthly active user (MAU) retention chart demonstrating at least 40% week-over-week retention rate."
+              },
+              {
+                "id": "3.2",
+                "title": "Cross-Border Payment Infrastructure Optimization",
+                "description": "Optimize bridge and settlement infrastructure to handle 500+ transactions per day with 99.5% uptime, sub-3-minute average settlement time, and transaction fees under $0.50 per transfer. Implement automated liquidity rebalancing.",
+                "verificationEvidence": "Uptime monitoring report from third-party service (UptimeRobot, Pingdom, or StatusPage) showing 99.5%+ availability over 4-week period; Performance metrics dashboard displaying average settlement time, transaction costs, and daily volume with daily data exports; GitHub commit showing liquidity pool rebalancing smart contract or bot code with inline documentation."
+              },
+              {
+                "id": "3.3",
+                "title": "Financial Inclusion Impact Report",
+                "description": "Publish comprehensive impact report documenting how the platform addresses real-world cross-border payment or financial inclusion problems. Include quantitative metrics (cost savings, settlement speed, user demographics) and qualitative case studies from underserved communities.",
+                "verificationEvidence": "Published impact report (PDF, minimum 20 pages) in GitHub /reports folder and hosted on project website; Data visualizations showing cost comparison vs. Western Union/MoneyGram, settlement time benchmarks, and geographic reach map; At least 3 detailed user case studies with consent forms, demonstrating utility for unbanked/underbanked populations in emerging markets."
+              },
+              {
+                "id": "3.4",
+                "title": "Open-Source Community Contribution & Documentation",
+                "description": "Publish comprehensive open-source developer documentation, API reference, and SDK enabling other projects to integrate Stellar-Base cross-chain functionality. Achieve at least 50 GitHub stars and 5 external code contributions.",
+                "verificationEvidence": "Public GitHub repository with README, API documentation (Swagger/OpenAPI spec), and integration tutorials with code examples; GitHub repository analytics showing 50+ stars, 10+ forks, and 5+ merged pull requests from external contributors; Developer community engagement metrics: 100+ members in Discord/Telegram developer channel or 20+ Stack Overflow/GitHub Discussions threads with team responses."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "founder": {
+      "name": "Healthtech Founder",
+      "diagnostic": {
+        "startupName": "MamaCare Diagnostics",
+        "tagline": "AI-assisted portable prenatal ultrasound scanner for rural health clinics",
+        "sector": "Healthtech",
+        "stage": "Prototype / MVP",
+        "region": "Sub-Saharan Africa",
+        "womenLed": true,
+        "fieldA": "Completed clinical alpha trials across 4 rural clinics scanning 250 patients with 94% diagnostic concordance.",
+        "fieldB": "Secure ISO 13485 medical device certification and execute 50-clinic commercial pilot with Ministry of Health."
+      },
+      "grants": [
+        "grant-cwi-tech",
+        "grant-villgro-africa"
+      ]
+    },
+    "matches": [
+      {
+        "id": "grant-cwi-tech",
+        "matchScore": 88,
+        "matchedCriteria": [
+          "✓ Healthtech deep-tech with proprietary diagnostic IP at TRL 5–6 (alpha clinical trials complete, commercial pilot planned)",
+          "✓ Female-led healthtech venture in Sub-Saharan Africa, eligible globally with regional inclusion",
+          "✓ Scalable commercialization plan addressing SDG 3 (Good Health) via rural clinic diagnostic access and Ministry of Health partnership"
+        ],
+        "blindspotAlert": "⚠ Grant demands defensible patent filings, peer-reviewed scientific proof-of-concept, or formal institutional lab validation. Ensure you have submitted or are preparing patent application for diagnostic technology AND secure peer-reviewed publication or independent clinical validation report beyond internal alpha trials to maximize competitiveness."
+      },
+      {
+        "id": "grant-amber-annual",
+        "matchScore": 85,
+        "matchedCriteria": [
+          "✓ Demonstrated milestone completion: clinical alpha trials across 4 clinics with 250 patients and 94% diagnostic concordance",
+          "✓ Healthtech sector aligned, women-led venture operating in Sub-Saharan Africa (globally eligible)",
+          "✓ Clear next-stage funding objective with detailed capital deployment: ISO 13485 certification and 50-clinic commercial pilot"
+        ],
+        "blindspotAlert": "⚠ Grant requires tangible prototype traction beyond conceptual stage. Your clinical alpha validation is strong, but ensure application includes detailed financial budgeting broken down by ISO certification costs, pilot implementation expenses, and scale bottleneck resolution with precise line items."
+      },
+      {
+        "id": "grant-ifundwomen-universal",
+        "matchScore": 82,
+        "matchedCriteria": [
+          "✓ Female founder in primary executive role leading Healthtech venture (globally eligible, Sub-Saharan Africa included)",
+          "✓ Demonstrated product-market fit indicator: 94% diagnostic concordance across 250 patients validates clinical problem-solution fit",
+          "✓ Precise capital deployment budget articulated: ISO 13485 certification and 50-clinic Ministry of Health pilot represent critical operational bottlenecks"
+        ],
+        "blindspotAlert": "⚠ Single universal application routes to dozens of corporate partners; generic pitch decks without tailored customer testimonials perform poorly. Include direct quotes and impact stories from the 4 rural clinic partners and Ministry of Health stakeholders to differentiate your submission."
+      },
+      {
+        "id": "grant-halcyon-women",
+        "matchScore": 76,
+        "matchedCriteria": [
+          "✓ Healthtech venture with embedded social impact: rural diagnostic access addressing healthcare inequality in Sub-Saharan Africa",
+          "✓ Early validated working prototype with initial user telemetry: 250 patient scans with 94% concordance demonstrates clinical validation",
+          "✓ Female-led venture eligible globally and regionally (Sub-Saharan Africa included); healthtech sector aligned"
+        ],
+        "blindspotAlert": "⚠ Mandatory in-person residency weeks in Washington DC; founders unable to travel internationally cannot accept fellowship. Confirm founder availability for 8-month cohort with multi-week DC residency and assess visa, travel budget, and operational continuity before applying."
+      },
+      {
+        "id": "grant-she-loves-tech",
+        "matchScore": 84,
+        "matchedCriteria": [
+          "✓ Female-founded healthtech solving socio-economic healthcare access challenges with medical device hardware across rural Africa",
+          "✓ Working prototype/MVP with documented user testing: 250-patient clinical alpha with 94% diagnostic concordance metrics",
+          "✓ Large addressable market with viable international strategy: Sub-Saharan Africa rural healthcare gap, Ministry of Health partnership demonstrates go-to-market traction"
+        ],
+        "blindspotAlert": "⚠ Startups must have raised less than $5M in cumulative capital; later-stage Series A+ startups are ineligible. Confirm total capital raised to date (equity + convertible instruments) is below $5M threshold. If you've raised significant dilutive rounds, you may be disqualified."
+      },
+      {
+        "id": "grant-sc-women-in-tech",
+        "matchScore": 90,
+        "matchedCriteria": [
+          "✓ Innovative tech-enabled healthtech solution addressing acute local African healthcare diagnostic bottleneck in rural clinic infrastructure",
+          "✓ Female-founded venture operating in Sub-Saharan Africa with commercial viability: Ministry of Health 50-clinic pilot demonstrates sustainable financial roadmap",
+          "✓ Sector (Healthtech), region (Sub-Saharan Africa), and women-led criteria perfectly aligned with grant requirements"
+        ],
+        "blindspotAlert": "⚠ Must be legally incorporated in the specific participating country (Kenya, Nigeria, Ghana, Zambia). Verify MamaCare Diagnostics is formally registered as a legal business entity in one of the eligible Standard Chartered operating countries. If incorporated elsewhere in Sub-Saharan Africa, re-incorporation may be required."
+      },
+      {
+        "id": "grant-cherie-blair",
+        "matchScore": 72,
+        "matchedCriteria": [
+          "✓ Female tech founder leading healthtech enterprise in Sub-Saharan Africa low/middle-income country context",
+          "✓ Platform delivering financial independence and healthcare access in underserved rural markets (mission-aligned)",
+          "✓ Globally eligible with Sub-Saharan Africa regional inclusion; healthtech sector recognized"
+        ],
+        "blindspotAlert": "⚠ Must demonstrate active smartphone/mobile app integration as primary customer distribution channel. If MamaCare's diagnostic device requires specialized hardware without mobile app interface for clinicians or patients, you may not meet core distribution criteria. Highlight any mobile companion app or SMS/app-based reporting immediately."
+      },
+      {
+        "id": "grant-loreal-unesco",
+        "matchScore": 78,
+        "matchedCriteria": [
+          "✓ Healthtech deep-tech with scientific rigor: clinical alpha trials and 94% diagnostic concordance demonstrate research-backed innovation",
+          "✓ Translation of scientific discovery into practical societal technology addressing rural healthcare diagnostics in Sub-Saharan Africa",
+          "✓ Female-led venture eligible globally and regionally (Sub-Saharan Africa); healthtech/STEM sector aligned"
+        ],
+        "blindspotAlert": "⚠ Requires affiliation with an accredited academic or research institute and peer-reviewed scientific citations. If founder does not hold active doctoral/postdoctoral affiliation or lack peer-reviewed publications on diagnostic technology, establish university research partnership or secure co-authored clinical study publication before applying."
+      },
+      {
+        "id": "grant-women-ai-awards",
+        "matchScore": 68,
+        "matchedCriteria": [
+          "✓ Healthtech venture with potential algorithmic innovation in diagnostic imaging or clinical decision support (if AI-enabled)",
+          "✓ Female technical leader; tangible pilot validation in healthcare with 250-patient alpha trials in Sub-Saharan Africa",
+          "✓ Globally eligible with Sub-Saharan Africa regional inclusion"
+        ],
+        "blindspotAlert": "⚠ Requires comprehensive AI ethics statement documenting training dataset provenance and fairness testing. If MamaCare's diagnostic system incorporates machine learning or AI algorithms, prepare detailed documentation on dataset diversity (rural African patient representation), bias mitigation, and algorithmic fairness audits. If purely hardware/non-AI diagnostic, this grant is lower priority."
+      }
+    ],
+    "roadmaps": [
+      {
+        "grant": {
+          "id": "grant-cwi-tech",
+          "name": "Cartier Science & Technology Pioneer Award",
+          "funder": "Cartier Women's Initiative",
+          "max_amount_usd": 100000,
+          "target_stage": "Prototype / MVP",
+          "eligible_regions": [
+            "Global",
+            "Sub-Saharan Africa",
+            "North America",
+            "Europe",
+            "Latin America",
+            "South Asia"
+          ],
+          "target_sectors": [
+            "Healthtech",
+            "AI / Agentic",
+            "Climate",
+            "Deep Tech",
+            "Biotech"
+          ],
+          "women_led_required": true,
+          "grant_type": "Non-dilutive Grant",
+          "evaluation_criteria": [
+            "Proprietary deep-tech or scientific IP barrier to entry (TRL 4–7)",
+            "Technical female founder or co-founder leading R&D/engineering architecture",
+            "Scalable commercialization plan addressing UN Sustainable Development Goals"
+          ],
+          "application_url": "https://www.cartierwomensinitiative.com/science-technology-pioneer-award",
+          "typical_turnaround": "10 weeks",
+          "cycle_status": "Annual Recurring Cycle",
+          "deadline_note": "Annual Deep Tech Cohort — Laureates receive $100k + INSEAD fellowship",
+          "blindspot_warning": "Demands defensible patent filings, peer-reviewed scientific proof-of-concept, or formal institutional lab test validation.",
+          "category": "Global Women-in-Tech",
+          "synopsis": "Dedicated award honoring women disruptors commercializing deep-tech, AI, and biotech breakthroughs with non-dilutive capital."
+        },
+        "tranches": [
+          {
+            "id": 1,
+            "name": "Tranche 1: IP Protection & Scientific Validation Foundation",
+            "timeline": "Weeks 1–4",
+            "percentage": 30,
+            "amountUsd": 30000,
+            "phaseObjective": "Establish defensible intellectual property barriers and peer-reviewed scientific credibility to address blindspot warning on patent filings and institutional validation.",
+            "deliverables": [
+              {
+                "id": "T1-D1",
+                "title": "Provisional Patent Application Filed for AI Diagnostic Algorithm",
+                "description": "File provisional patent application with national patent office covering proprietary machine learning architecture, image processing pipeline, and diagnostic decision framework for cervical cancer detection. Application must detail novel technical claims distinguishing from prior art.",
+                "verificationEvidence": "Copy of filed provisional patent application with official filing receipt, serial number, and filing date from patent office; Patent attorney engagement letter."
+              },
+              {
+                "id": "T1-D2",
+                "title": "Peer-Reviewed Journal Manuscript Submitted",
+                "description": "Submit manuscript detailing clinical alpha trial methodology, results (250 patients, 94% concordance), and comparative analysis to gold standard diagnostics to a peer-reviewed medical journal (target: PLOS ONE, BMJ Open, or Journal of Global Health). Manuscript must include institutional review board approval documentation.",
+                "verificationEvidence": "Journal submission confirmation email with manuscript ID; Draft manuscript PDF showing all authors, abstract, methodology, and results sections; IRB approval letter."
+              },
+              {
+                "id": "T1-D3",
+                "title": "ISO 13485 Gap Analysis & Remediation Plan Completed",
+                "description": "Engage accredited ISO 13485 certification consultant to conduct full gap analysis of current quality management system against ISO 13485:2016 requirements. Deliver written remediation roadmap with timeline to certification readiness.",
+                "verificationEvidence": "Signed gap analysis report from ISO consultant identifying non-conformances across all 8 chapters; Detailed remediation action plan with owner assignments and target closure dates; Consultant engagement contract."
+              },
+              {
+                "id": "T1-D4",
+                "title": "University/Research Institution Technical Validation Partnership Secured",
+                "description": "Execute formal memorandum of understanding with accredited research institution or university hospital to conduct independent technical validation study of diagnostic device performance. Partnership must include lab access and co-publication rights.",
+                "verificationEvidence": "Signed MOU or collaboration agreement on institutional letterhead; Email correspondence confirming lab access and validation study protocol approval; Names and credentials of principal investigator(s)."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Tranche 2: Regulatory Compliance & Commercial Pilot Preparation",
+            "timeline": "Weeks 5–8",
+            "percentage": 40,
+            "amountUsd": 40000,
+            "phaseObjective": "Achieve ISO 13485 certification readiness and establish Ministry of Health partnership infrastructure to enable 50-clinic commercial pilot execution.",
+            "deliverables": [
+              {
+                "id": "T2-D1",
+                "title": "ISO 13485 Stage 1 Audit Passed",
+                "description": "Complete Stage 1 (documentation review) audit by accredited certification body (e.g., BSI, TÜV, SGS) confirming quality management system documentation meets ISO 13485:2016 requirements. All major non-conformances must be closed.",
+                "verificationEvidence": "Official Stage 1 audit report from certification body on letterhead showing conformance status; List of any minor non-conformances with closure evidence; Scheduled Stage 2 audit date confirmation."
+              },
+              {
+                "id": "T2-D2",
+                "title": "Ministry of Health Pilot MOU Executed",
+                "description": "Secure signed memorandum of understanding with Ministry of Health defining 50-clinic commercial pilot scope, timeline, device deployment terms, data sharing protocols, and health worker training commitments. MOU must specify measurable pilot success metrics.",
+                "verificationEvidence": "Fully executed MOU on Ministry of Health letterhead with official signatures and stamps; Pilot implementation workplan; List of confirmed 50 pilot clinic sites with geographic distribution."
+              },
+              {
+                "id": "T2-D3",
+                "title": "Manufacturing Scale-Up Plan & Supply Chain Validated",
+                "description": "Finalize contract manufacturer agreement for production of 75 device units (50 pilot + 25 buffer). Conduct manufacturing qualification runs validating device performance consistency. Secure component supply agreements ensuring 6-month inventory buffer.",
+                "verificationEvidence": "Signed contract manufacturing agreement with production timeline; Manufacturing qualification test report showing 3 consecutive validation batches meeting specifications; Supplier agreements for critical components with lead time documentation."
+              },
+              {
+                "id": "T2-D4",
+                "title": "Clinical Training Curriculum & Materials Finalized",
+                "description": "Develop standardized training curriculum for 50-clinic health workers including device operation protocols, quality control procedures, patient consent workflows, and data collection forms. Curriculum must be approved by Ministry of Health clinical training authority.",
+                "verificationEvidence": "Complete training manual with SOPs, visual aids, and competency assessment tools; Ministry of Health approval letter on training curriculum; Pre-production copies of training materials (print/digital)."
+              },
+              {
+                "id": "T2-D5",
+                "title": "UN SDG Impact Measurement Framework Established",
+                "description": "Design quantitative impact measurement framework mapping pilot outcomes to UN SDG 3 (Good Health) and SDG 5 (Gender Equality) indicators. Framework must include baseline metrics, data collection methodology, and reporting dashboard.",
+                "verificationEvidence": "SDG impact measurement framework document defining indicators, targets, and data sources; Data collection tools (surveys, forms) aligned to SDG metrics; Dashboard mockup or prototype showing KPI tracking."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Tranche 3: ISO Certification & Commercial Pilot Launch",
+            "timeline": "Weeks 9–12",
+            "percentage": 30,
+            "amountUsd": 30000,
+            "phaseObjective": "Obtain ISO 13485 medical device certification and initiate 50-clinic commercial pilot with Ministry of Health demonstrating scalable go-to-market execution.",
+            "deliverables": [
+              {
+                "id": "T3-D1",
+                "title": "ISO 13485:2016 Certification Achieved",
+                "description": "Pass Stage 2 (implementation) audit and receive official ISO 13485:2016 certificate from accredited certification body. Certificate must cover design, development, production, and servicing of AI-enabled diagnostic device.",
+                "verificationEvidence": "Official ISO 13485:2016 certificate from accredited certification body with certificate number, scope statement, and validity dates; Stage 2 audit report showing conformance; Certificate uploaded to public registry."
+              },
+              {
+                "id": "T3-D2",
+                "title": "50-Clinic Pilot Deployment Completed (Phase 1: First 15 Clinics)",
+                "description": "Deploy devices to first 15 pilot clinics, conduct on-site health worker training achieving 90%+ competency pass rate, and confirm operational device installation with baseline data collection initiated. Establish remote technical support helpdesk.",
+                "verificationEvidence": "Signed device acceptance forms from 15 clinic administrators; Training completion certificates for health workers with competency test scores; Installation checklists with device serial numbers and go-live dates; First 2 weeks of patient screening data."
+              },
+              {
+                "id": "T3-D3",
+                "title": "Peer-Reviewed Publication Acceptance or Revision Milestone Achieved",
+                "description": "Receive either acceptance notification from peer-reviewed journal for clinical alpha trial manuscript (T1-D2), or complete major revision incorporating reviewer feedback and resubmit. If accepted, publication must be in press or published.",
+                "verificationEvidence": "Journal acceptance letter or revision decision letter with reviewer comments; Proof of revision resubmission with point-by-point response document; If accepted: publication DOI, early online view link, or final PDF."
+              },
+              {
+                "id": "T3-D4",
+                "title": "Scalable Commercialization Business Model Validated",
+                "description": "Finalize unit economics model showing path to gross margin >60% at scale. Secure at least 2 additional letters of intent from regional health authorities, international NGOs, or private health networks representing deployment pipeline of 100+ additional clinics post-pilot.",
+                "verificationEvidence": "Financial model spreadsheet detailing COGS breakdown, pricing strategy, and margin analysis at 100/500/1000 unit volumes; Signed letters of intent from 2 prospective customers with clinic count and indicative timelines; Competitive positioning analysis document."
+              },
+              {
+                "id": "T3-D5",
+                "title": "Female Founder Leadership & Technical Architecture Documentation",
+                "description": "Produce comprehensive technical documentation authored or co-authored by female founder showcasing leadership in R&D/engineering architecture. Documentation must include system architecture diagrams, algorithm design decisions, and technology roadmap.",
+                "verificationEvidence": "Technical white paper or architecture document (15+ pages) with female founder as primary author; Organizational chart highlighting female founder's CTO/Chief Science Officer role; Biography and CV documenting technical credentials and R&D leadership."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "founder": {
+      "name": "Agritech Founder",
+      "diagnostic": {
+        "startupName": "KilimoSolar IoT",
+        "tagline": "Solar-powered IoT precision irrigation and soil moisture telemetry for smallholder farmers",
+        "sector": "Agritech",
+        "stage": "Prototype / MVP",
+        "region": "Sub-Saharan Africa",
+        "womenLed": true,
+        "fieldA": "Fabricated 50 solar telemetry units installed across 15 cooperative farms with 35% water savings documented.",
+        "fieldB": "Manufacture 500 next-gen units with integrated cellular fallback and onboard 2 regional agribusiness exporters."
+      },
+      "grants": [
+        "grant-aecf-agtech",
+        "grant-usadf-offgrid"
+      ]
+    },
+    "matches": [
+      {
+        "id": "grant-halcyon-climate",
+        "matchScore": 88,
+        "matchedCriteria": [
+          "✓ Sector alignment: Agritech with clean energy (solar telemetry) and quantifiable climate mitigation (35% water savings documented)",
+          "✓ Region: Sub-Saharan Africa explicitly listed; Global reach provides additional flexibility",
+          "✓ Women-led: Underrepresented executive founder commitment requirement satisfied by female leadership"
+        ],
+        "blindspotAlert": "⚠ Must present quantifiable lifecycle carbon emissions or environmental metric impact model—water savings are documented but full GHG reduction or lifecycle carbon footprint modeling may need formalization for underwriting."
+      },
+      {
+        "id": "grant-she-loves-tech",
+        "matchScore": 92,
+        "matchedCriteria": [
+          "✓ Women-led: Female entrepreneurs founding requirement explicitly met",
+          "✓ Stage alignment: Prototype/MVP with documented user testing (50 units deployed, 35% water savings verified)",
+          "✓ Sector & Region: Agritech + Sub-Saharan Africa both explicitly eligible; large addressable market via 2 regional agribusiness exporters strategy"
+        ],
+        "blindspotAlert": "⚠ Startups must have raised less than $5M in cumulative capital—confirm total dilutive + non-dilutive capital raised to date does not exceed this threshold."
+      },
+      {
+        "id": "grant-sc-women-in-tech",
+        "matchScore": 85,
+        "matchedCriteria": [
+          "✓ Sector: Agritech explicitly listed as eligible",
+          "✓ Region: Sub-Saharan Africa operating presence matches perfectly",
+          "✓ Women-led: Female-founded management team requirement satisfied; addressing local market bottlenecks (water efficiency for cooperative farms)"
+        ],
+        "blindspotAlert": "⚠ Must be legally incorporated in specific participating country (Kenya, Nigeria, Ghana, or Zambia)—verify legal entity domicile matches one of these jurisdictions."
+      },
+      {
+        "id": "grant-awief-accelerator",
+        "matchScore": 81,
+        "matchedCriteria": [
+          "✓ Women-led: Female founder holding at least 51% equity requirement met",
+          "✓ Region: Sub-Saharan Africa venture with African commercial presence",
+          "✓ Sector: Agritech explicitly listed; scalable cross-border market penetration aligns with 2 regional agribusiness exporters plan"
+        ],
+        "blindspotAlert": "⚠ Requires registered commercial entity in an AU member state and structured financial balance sheet—confirm formal incorporation and availability of auditable financial statements at prototype stage."
+      },
+      {
+        "id": "grant-cherie-blair",
+        "matchScore": 72,
+        "matchedCriteria": [
+          "✓ Women-led: Female tech founder in low/middle-income country (Sub-Saharan Africa)",
+          "✓ Sector: Agritech explicitly eligible",
+          "✓ Region: Sub-Saharan Africa explicitly listed"
+        ],
+        "blindspotAlert": "⚠ Must demonstrate active smartphone/mobile app integration as primary customer distribution channel—IoT telemetry with cellular fallback may qualify, but confirm end-user interface is mobile-app driven rather than solely hardware-based."
+      },
+      {
+        "id": "grant-cwi-reg",
+        "matchScore": 78,
+        "matchedCriteria": [
+          "✓ Sector & Region: Agritech + Sub-Saharan Africa both explicitly eligible",
+          "✓ Women-led: Majority female leadership holding principal C-level decision-making power requirement met",
+          "✓ For-profit operational track record: 50 units installed across 15 farms demonstrates operational execution and measurable social/environmental impact"
+        ],
+        "blindspotAlert": "⚠ Requires registered legal entity with at least 1–3 years of verifiable financial accounts and institutional audited statements—prototype/MVP stage may lack multi-year audited financials."
+      },
+      {
+        "id": "grant-bayer-empowerment",
+        "matchScore": 87,
+        "matchedCriteria": [
+          "✓ Sector focus: Agritech exclusively—solar IoT for smallholder cooperative farms aligns perfectly",
+          "✓ Region: Sub-Saharan Africa explicitly listed",
+          "✓ Women-led: Female founder driving breakthrough innovation in agriculture with tangible socio-economic benefit (35% water savings for smallholders)"
+        ],
+        "blindspotAlert": "⚠ Must be exclusively focused on either Nutrition/Agriculture or Healthcare—IoT telemetry for agritech qualifies, but ensure pitch emphasizes agricultural impact over generic IoT/tech narrative."
+      },
+      {
+        "id": "grant-miller-center",
+        "matchScore": 68,
+        "matchedCriteria": [
+          "✓ Women-led: Female leadership requirement met",
+          "✓ Sector & Region: Agritech + Climate resilience in Sub-Saharan Africa both eligible",
+          "✓ Climate resilience mission: Water savings and renewable solar energy align with climate adaptation for smallholders"
+        ],
+        "blindspotAlert": "⚠ Requires verified revenue track record ($20k+ annual run-rate)—at prototype/MVP stage with 50 units, confirm whether recurring cash flow or commercial contracts meet minimum revenue threshold."
+      },
+      {
+        "id": "grant-finca-ventures",
+        "matchScore": 64,
+        "matchedCriteria": [
+          "✓ Women-led: Female-founded enterprise requirement satisfied",
+          "✓ Region: Sub-Saharan Africa eligible",
+          "✓ Sector: Agritech listed; tech-enabled field operations via solar IoT telemetry units align"
+        ],
+        "blindspotAlert": "⚠ Requires active field agent network or digital distribution channels serving rural or unbanked populations—IoT hardware distribution model must demonstrate last-mile rural distribution infrastructure."
+      },
+      {
+        "id": "grant-d-prize",
+        "matchScore": 58,
+        "matchedCriteria": [
+          "✓ Region: Sub-Saharan Africa and Global both listed",
+          "✓ Sector: Agritech and Climate eligible",
+          "✓ Evidence-based poverty alleviation: Water savings for smallholder cooperative farms addresses resource scarcity"
+        ],
+        "blindspotAlert": "⚠ D-Prize funds distribution, NOT inventing new tech—if proposal focuses purely on R&D or manufacturing 500 next-gen units rather than last-mile delivery/distribution pilots, it will be rejected. Pivot pitch to 90-day deployment roadmap."
+      },
+      {
+        "id": "grant-afdb-afawa",
+        "matchScore": 70,
+        "matchedCriteria": [
+          "✓ Women-led: Women-owned or women-led formal enterprise requirement met",
+          "✓ Region: Sub-Saharan Africa",
+          "✓ Sector: Agritech explicitly eligible; high employment creation capacity aligns with scaling to 500 units and onboarding 2 regional exporters"
+        ],
+        "blindspotAlert": "⚠ Disbursed via commercial partner banks; requires clean credit bureau history and formal tax compliance certificates—ensure legal entity has established credit profile and tax filings at prototype stage."
+      },
+      {
+        "id": "grant-stacy-rise",
+        "matchScore": 55,
+        "matchedCriteria": [
+          "✓ Women-led: Female founder holding primary ownership requirement met",
+          "✓ Sector: Agritech listed as eligible",
+          "✓ Supply chain component: Manufacturing 500 units and onboarding regional exporters demonstrates supply chain engagement"
+        ],
+        "blindspotAlert": "⚠ Requires demonstrated commercial inventory, supply chain, or customer delivery track record AND $25k+ prior year revenue—at prototype stage with 50 units, verify revenue milestone is met."
+      }
+    ],
+    "roadmaps": [
+      {
+        "grant": {
+          "id": "grant-aecf-agtech",
+          "name": "Africa Enterprise Challenge Fund (AECF) Agtech Facility",
+          "funder": "AECF & Global Affairs Canada",
+          "max_amount_usd": 150000,
+          "target_stage": "Early Growth",
+          "eligible_regions": [
+            "Sub-Saharan Africa"
+          ],
+          "target_sectors": [
+            "Agritech",
+            "Climate",
+            "Supply Chain",
+            "Fintech"
+          ],
+          "women_led_required": false,
+          "grant_type": "Non-dilutive Grant",
+          "evaluation_criteria": [
+            "Commercial resilience of smallholder farmer supply chains",
+            "Climate adaptation or renewable energy application in agriculture",
+            "Clear pathway to commercially viable rural distribution"
+          ],
+          "application_url": "https://www.aecfafrica.org/",
+          "typical_turnaround": "10 weeks",
+          "cycle_status": "Active Q3/Q4 Window",
+          "deadline_note": "Window open for climate-resilient agriculture and energy ventures",
+          "blindspot_warning": "Demands audited financial statements and co-financing matching ratio (typically 1:1 in-kind or cash matching).",
+          "category": "Pan-African & Emerging Markets",
+          "synopsis": "Specialized agribusiness challenge fund providing non-dilutive catalytic funding to scale sustainable food systems across Africa."
+        },
+        "tranches": [
+          {
+            "id": 1,
+            "name": "Tranche 1: Manufacturing Infrastructure & Co-Financing Validation",
+            "timeline": "Weeks 1–4",
+            "percentage": 30,
+            "amountUsd": 45000,
+            "phaseObjective": "Establish manufacturing capacity for next-gen units, secure co-financing commitments, and complete financial audit requirements to satisfy AECF's matching ratio and transparency standards.",
+            "deliverables": [
+              {
+                "id": "T1-D1",
+                "title": "Audited Financial Statements (12-month trailing period)",
+                "description": "Engage independent certified auditor to complete and certify financial statements covering prior 12-month operating period, including balance sheet, income statement, cash flow, and notes. Must meet IFRS for SMEs or local GAAP standards acceptable to AECF.",
+                "verificationEvidence": "Signed auditor opinion letter, complete audited financial statement package with auditor stamp/seal, and transmittal receipt from AECF portal upload."
+              },
+              {
+                "id": "T1-D2",
+                "title": "Co-Financing Agreement Documentation (1:1 matching secured)",
+                "description": "Secure and formalize minimum $150,000 USD equivalent in co-financing (cash or in-kind) from founders, impact investors, equipment suppliers, or strategic partners. Document all commitments with signed term sheets, board resolutions, or supplier credit agreements.",
+                "verificationEvidence": "Binding signed agreements totaling ≥$150k, co-financing register with line-item breakdown (cash vs. in-kind), and third-party confirmation letters from each co-financing source."
+              },
+              {
+                "id": "T1-D3",
+                "title": "Next-Gen Unit Bill of Materials (BOM) & Supplier Contracts",
+                "description": "Finalize engineering BOM for 500 next-gen units with integrated cellular fallback module (2G/3G/4G modem, SIM management). Execute binding supply agreements for solar panels, IoT controllers, cellular modules, enclosures, and sensors with lead-time and price locks.",
+                "verificationEvidence": "Complete BOM spreadsheet with part numbers and unit costs, signed supplier purchase orders or framework agreements for all critical components, and proforma invoices totaling procurement value."
+              },
+              {
+                "id": "T1-D4",
+                "title": "Manufacturing Partner Quality Assurance Protocol",
+                "description": "Establish or formalize manufacturing partnership (in-house or contracted assembly facility). Develop and document QA/QC protocol including incoming component inspection, assembly checklist, functional testing (solar charge, telemetry transmission, cellular failover), and batch traceability.",
+                "verificationEvidence": "Signed manufacturing services agreement or facility lease, written QA/QC manual with test procedures and acceptance criteria, and photographic evidence of production line setup with testing equipment."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Tranche 2: Production Scale-Up & Exporter Partnership Agreements",
+            "timeline": "Weeks 5–8",
+            "percentage": 40,
+            "amountUsd": 60000,
+            "phaseObjective": "Manufacture first production batch of next-gen units, onboard 2 regional agribusiness exporters with signed distribution agreements, and validate commercial resilience pathway through exporter-backed farmer supply chain integration.",
+            "deliverables": [
+              {
+                "id": "T2-D1",
+                "title": "Production and QA Certification of 500 Next-Gen Units",
+                "description": "Complete manufacturing of all 500 next-gen solar telemetry units with integrated cellular fallback. Each unit must pass functional testing: solar charging cycle, LoRaWAN/cellular dual-mode transmission, sensor calibration (soil moisture, weather), and 72-hour burn-in test. Generate serialized production log.",
+                "verificationEvidence": "Serialized inventory manifest (500 units with unique IDs), QA test results database (pass/fail per unit per test), and third-party inspection certificate from manufacturing facility or independent QA firm."
+              },
+              {
+                "id": "T2-D2",
+                "title": "Signed Distribution Agreements with 2 Regional Agribusiness Exporters",
+                "description": "Onboard 2 regional agribusiness exporters (e.g., horticultural, coffee, tea, or fresh produce exporters) who will integrate KilimoSolar IoT into their smallholder outgrower supply chains. Agreements must specify minimum farmer reach, deployment timeline, and revenue-sharing or equipment financing model.",
+                "verificationEvidence": "Two signed distribution or supply chain partnership agreements, each detailing farmer coverage targets (minimum 100 smallholders per exporter), commercialization terms, and exporter company registration certificates."
+              },
+              {
+                "id": "T2-D3",
+                "title": "Commercial Resilience & Rural Distribution Business Model Canvas",
+                "description": "Document commercially viable rural distribution strategy showing unit economics, farmer financing/leasing options (PAYG, rent-to-own, or cooperative bulk purchase), distributor margin structures, after-sales support, and 24-month cash flow projection demonstrating path to sustainability.",
+                "verificationEvidence": "Business model canvas with validated assumptions, unit economics spreadsheet (COGS, distributor margin, farmer payment terms), signed letters of intent from at least 3 rural agro-dealers or cooperatives, and 24-month financial projection model."
+              },
+              {
+                "id": "T2-D4",
+                "title": "Climate Adaptation Impact Baseline for Exporter Supply Chains",
+                "description": "Establish baseline climate adaptation metrics for the 2 exporter partner supply chains: current water use per hectare, crop yield variability, renewable energy adoption rate, and farmer climate risk exposure. This baseline will anchor impact measurement for AECF reporting.",
+                "verificationEvidence": "Baseline impact report with data from exporter agronomist records or farmer surveys (minimum 50 farmers per exporter), including water usage, yield data, and current irrigation practices. Report co-signed by exporter representatives."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Tranche 3: Field Deployment, Impact Validation & Commercialization Evidence",
+            "timeline": "Weeks 9–12",
+            "percentage": 30,
+            "amountUsd": 45000,
+            "phaseObjective": "Deploy units across exporter supply chains, capture auditable climate adaptation and supply chain resilience impact data, and demonstrate commercial traction with revenue generation and farmer adoption evidence.",
+            "deliverables": [
+              {
+                "id": "T3-D1",
+                "title": "Field Deployment of 400+ Units Across Exporter Outgrower Farms",
+                "description": "Deploy minimum 400 of the 500 manufactured units to smallholder farms within the 2 exporter partner supply chains. Installation must include farmer training (device operation, data interpretation, maintenance), cellular connectivity activation, and integration with exporter farm management systems.",
+                "verificationEvidence": "GPS-tagged deployment map with ≥400 installation coordinates, signed farmer acceptance forms (name, farm ID, unit serial number, installation date), and timestamped installation photos showing units operational in field."
+              },
+              {
+                "id": "T3-D2",
+                "title": "Climate Adaptation Impact Report (Water & Energy Savings)",
+                "description": "Collect and analyze 4 weeks of operational telemetry data from deployed units. Measure and report: percentage reduction in water use per hectare, solar energy generated per unit, reduction in diesel/grid pump usage, and improvement in irrigation scheduling precision. Compare to Tranche 2 baseline.",
+                "verificationEvidence": "Impact report with aggregated telemetry analytics dashboard screenshots, statistical analysis (mean water savings, confidence intervals), farmer testimonial videos (minimum 10), and third-party verification letter from exporter agronomist or independent M&E consultant."
+              },
+              {
+                "id": "T3-D3",
+                "title": "Commercial Revenue Evidence & Farmer Payment Traction",
+                "description": "Demonstrate commercial viability through documented revenue generation: farmer lease/purchase payments received, exporter equipment purchase orders, or PAYG transaction logs. Minimum target: $15,000 USD in recognized revenue or committed multi-year contracts.",
+                "verificationEvidence": "Revenue ledger extract from accounting system (bank statements showing farmer payments), signed exporter purchase orders for additional units or service contracts, mobile money transaction reports (if PAYG), and accountant certification letter."
+              },
+              {
+                "id": "T3-D4",
+                "title": "Supply Chain Resilience Case Study & Scale Roadmap",
+                "description": "Produce case study documenting how KilimoSolar IoT improved commercial resilience of exporter supply chains: reduced post-harvest losses, improved crop quality consistency, enhanced exporter traceability, or reduced supply disruption risk. Include 12-month scale plan to reach 2,000 additional farmers.",
+                "verificationEvidence": "Written case study report (8-12 pages) with exporter testimonials and before/after supply chain metrics, co-branded presentation deck for AECF dissemination, and 12-month scale roadmap with partner commitments and funding pipeline (debt, revenue, or follow-on grants)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "grant": {
+          "id": "grant-usadf-offgrid",
+          "name": "USADF Off-Grid Energy & Agritech Challenge",
+          "funder": "U.S. African Development Foundation & All On",
+          "max_amount_usd": 100000,
+          "target_stage": "Early Growth",
+          "eligible_regions": [
+            "Sub-Saharan Africa"
+          ],
+          "target_sectors": [
+            "Climate",
+            "Agritech",
+            "Supply Chain"
+          ],
+          "women_led_required": false,
+          "grant_type": "Non-dilutive Grant",
+          "evaluation_criteria": [
+            "100% African-owned and managed local enterprise",
+            "Off-grid renewable power or productive use of energy for farming",
+            "Direct benefit to underserved rural off-grid communities"
+          ],
+          "application_url": "https://www.usadf.org/",
+          "typical_turnaround": "10 weeks",
+          "cycle_status": "Annual Recurring Cycle",
+          "deadline_note": "Annual grant challenge providing $50k-$100k non-dilutive capital",
+          "blindspot_warning": "Strict 100% African ownership requirement; ventures with majority foreign holding companies are disqualified.",
+          "category": "Pan-African & Emerging Markets",
+          "synopsis": "U.S. government agency providing 100% non-dilutive seed and growth capital directly to grassroots African energy and agtech enterprises."
+        },
+        "tranches": [
+          {
+            "id": 1,
+            "name": "Tranche 1: Manufacturing Scale-Up & African Ownership Verification",
+            "timeline": "Weeks 1–4",
+            "percentage": 30,
+            "amountUsd": 30000,
+            "phaseObjective": "Establish verifiable 100% African ownership structure, procure cellular IoT components, and initiate first production batch of 200 next-gen units with integrated cellular fallback capability.",
+            "deliverables": [
+              {
+                "id": "1.1",
+                "title": "100% African Ownership Certification & Corporate Registry Proof",
+                "description": "Submit certified corporate registry documents (Certificate of Incorporation, Share Register, Directorship filings) proving 100% African individual or entity ownership with no foreign holding company structures. Include notarized shareholder declarations and beneficial ownership register compliant with USADF eligibility requirements.",
+                "verificationEvidence": "Certified copies of Certificate of Incorporation, official Share Register stamped by corporate registrar showing 100% African shareholders with passport/national ID verification, notarized beneficial ownership declaration, legal opinion letter from licensed African attorney confirming USADF compliance."
+              },
+              {
+                "id": "1.2",
+                "title": "Cellular Fallback Module Procurement & Integration Design",
+                "description": "Purchase and receive 500 NB-IoT/LTE-M cellular modem modules with dual SIM capability for network redundancy. Complete hardware integration schematic and PCB design revision incorporating cellular chipset alongside existing solar telemetry sensors.",
+                "verificationEvidence": "Supplier invoices and delivery receipts for 500 cellular modules with serial number manifest, completed PCB schematic files (Gerber/Eagle format), photographic documentation of prototype PCB with integrated cellular module, bench test report demonstrating cellular connectivity and solar charging compatibility."
+              },
+              {
+                "id": "1.3",
+                "title": "First Production Batch: 200 Next-Gen Units Manufactured",
+                "description": "Fabricate and quality-test 200 solar telemetry units with integrated cellular fallback. Each unit must pass solar charge verification, sensor calibration, and cellular network registration tests on at least two local carrier networks.",
+                "verificationEvidence": "Serialized inventory log of 200 manufactured units with QR codes, factory production photos timestamped and geotagged, quality assurance test reports for each unit documenting solar voltage output (>12V), soil moisture sensor accuracy (±3%), and successful cellular registration on two networks, video walkthrough of production floor showing batch assembly."
+              },
+              {
+                "id": "1.4",
+                "title": "Rural Community Off-Grid Impact Baseline Assessment",
+                "description": "Conduct structured surveys with 100 smallholder farmers across target deployment communities to document current off-grid energy access status, agricultural challenges, water access constraints, and livelihood baseline metrics (income, crop yield, energy costs) for measuring direct rural benefit impact.",
+                "verificationEvidence": "Anonymized survey database (Excel/CSV) with 100+ farmer responses including GPS coordinates of farms confirming off-grid rural location, summary impact assessment report with demographic breakdown, photographic consent forms, baseline income and yield data tables, community leader endorsement letters confirming underserved off-grid status."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Tranche 2: Field Deployment & Agribusiness Partnership Formalization",
+            "timeline": "Weeks 5–8",
+            "percentage": 40,
+            "amountUsd": 40000,
+            "phaseObjective": "Deploy 200 manufactured units to off-grid smallholder farms, formalize partnership agreements with 2 regional agribusiness exporters, and demonstrate measurable productive use of renewable energy for farming operations.",
+            "deliverables": [
+              {
+                "id": "2.1",
+                "title": "200 Next-Gen Units Deployed to Off-Grid Rural Farms",
+                "description": "Install 200 solar telemetry units with cellular fallback across minimum 40 off-grid smallholder farms in underserved rural communities. Each installation must include farmer training on device operation, irrigation scheduling based on sensor data, and solar maintenance protocols.",
+                "verificationEvidence": "Geotagged installation photos with GPS metadata proving off-grid rural location (>5km from national grid), signed farmer acceptance forms with national ID copies, installation checklist completed for each of 200 units, video testimonials from minimum 10 farmers explaining device functionality and expected irrigation benefits, cellular network connectivity logs showing active data transmission from all units."
+              },
+              {
+                "id": "2.2",
+                "title": "Signed Partnership Agreements with 2 Regional Agribusiness Exporters",
+                "description": "Execute binding Memoranda of Understanding or supply agreements with 2 established regional agribusiness exporters (horticulture, coffee, cocoa, or other high-value crops) to onboard their contracted smallholder networks onto KilimoSolar IoT platform for improved yield quality, traceability, and export compliance.",
+                "verificationEvidence": "Executed partnership agreements on exporter letterhead with signatures and company stamps, corporate registry proof for both agribusiness partners confirming operational status, scope of work detailing minimum number of farms to onboard (100+ per exporter), payment or revenue-share terms, letters of intent from exporters describing how solar IoT improves their smallholder supply chain, press release or joint announcement."
+              },
+              {
+                "id": "2.3",
+                "title": "Productive Use of Renewable Energy for Farming Demonstrated",
+                "description": "Collect and analyze 4 weeks of real-time solar-powered telemetry data showing measurable improvements in irrigation efficiency, water usage reduction, or crop health indicators (soil moisture optimization, frost alerts, pest early warning). Demonstrate that off-grid solar energy directly enables productive agricultural outcomes.",
+                "verificationEvidence": "Cloud dashboard screenshots or API data exports showing continuous telemetry from 200 deployed units over 28 days, comparative analysis report quantifying irrigation water savings (liters/hectare), before/after soil moisture charts, farmer self-reported crop health improvements (survey with 40+ responses), timestamped SMS/app alerts sent to farmers for irrigation scheduling, technical white paper summarizing renewable energy productive use impact."
+              },
+              {
+                "id": "2.4",
+                "title": "African Management Team & Local Value Chain Documentation",
+                "description": "Provide organizational chart and employment contracts demonstrating 100% African management and decision-making authority. Document local procurement of components, assembly labor, and service technicians to prove job creation and economic value retention within African communities.",
+                "verificationEvidence": "Organizational chart with photos and CVs of all C-suite and senior management (CEO, CTO, COO) showing African nationality via passport copies, employment contracts for management team, payroll records for local assembly technicians and field staff (minimum 10 employees), supplier invoices from African component distributors, community impact summary quantifying jobs created and local spending, testimonial video from management team affirming local control and decision-making."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Tranche 3: Full Production Completion & Impact Verification",
+            "timeline": "Weeks 9–12",
+            "percentage": 30,
+            "amountUsd": 30000,
+            "phaseObjective": "Complete manufacture of remaining 300 units to reach 500-unit target, deploy via agribusiness exporter channels, and provide auditable evidence of direct rural off-grid community benefit aligned with USADF mission.",
+            "deliverables": [
+              {
+                "id": "3.1",
+                "title": "Remaining 300 Units Manufactured and Quality-Certified",
+                "description": "Fabricate final production batch of 300 solar telemetry units with integrated cellular fallback to achieve 500-unit grant target. All units must pass identical quality assurance protocols as Tranche 1 and be ready for deployment or distribution to agribusiness exporter partners.",
+                "verificationEvidence": "Serialized inventory log of 300 units with unique IDs and QR codes (continuing from batch 1), factory production timestamped photos, quality assurance test certificates for all 300 units (solar, sensor, cellular tests), warehouse stock photographs showing full 500-unit inventory, third-party inspection report if available, video documentation of final assembly line operations."
+              },
+              {
+                "id": "3.2",
+                "title": "Agribusiness Exporter Channel Deployment: 150+ Units Distributed",
+                "description": "Distribute minimum 150 units from the 300-unit final batch through the 2 onboarded agribusiness exporter partner channels to their contracted smallholder farmer networks. Provide installation support and integrate exporter supply chain data requirements into IoT platform.",
+                "verificationEvidence": "Delivery receipts or consignment notes signed by both agribusiness exporters acknowledging receipt of units (75+ each), list of end-farmer recipients with GPS coordinates and national ID, installation photos from exporter-sourced farms, exporter testimonial letters describing deployment progress and anticipated supply chain benefits, cloud platform user access logs showing exporter dashboards active and monitoring farmer data."
+              },
+              {
+                "id": "3.3",
+                "title": "Direct Rural Community Benefit Impact Report",
+                "description": "Produce comprehensive impact assessment quantifying direct benefits to underserved off-grid rural communities: number of smallholder households reached, water savings achieved (liters/week), estimated income increase from improved yields, reduction in energy costs (kerosene/diesel displacement), women and youth participation rates, and case studies from beneficiary farmers.",
+                "verificationEvidence": "Final impact report (15–25 pages) with executive summary, beneficiary demographics table (minimum 200 households), quantified water and energy savings with methodology, before/after income data from farmer surveys, GPS map of all deployment sites confirming off-grid rural locations, minimum 5 detailed farmer case studies with photos and quotes, gender-disaggregated data showing women/youth benefit, third-party verification letter from local NGO or agricultural extension officer if available."
+              },
+              {
+                "id": "3.4",
+                "title": "Financial Audit & African Ownership Continuity Certification",
+                "description": "Provide audited financial statement or certified expenditure report showing transparent use of $100,000 grant funds across manufacturing, deployment, and operations. Reconfirm 100% African ownership structure has remained unchanged throughout grant period with updated share register and no foreign equity introductions.",
+                "verificationEvidence": "Certified financial audit or expenditure report signed by licensed accountant detailing all grant fund allocations by category (manufacturing, components, labor, deployment, overhead), bank statements showing fund inflows and outflows, updated Share Register certified by corporate registrar (dated Week 12) confirming no ownership changes and 100% African shareholding continuity, final compliance declaration signed by CEO and Board Chair affirming USADF eligibility criteria maintained throughout grant period."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "founder": {
+      "name": "Generic B2B SaaS Founder",
+      "diagnostic": {
+        "startupName": "ProcureSphere",
+        "tagline": "AI procurement & vendor compliance automation platform for African enterprises",
+        "sector": "B2B SaaS",
+        "stage": "Early Growth",
+        "region": "Sub-Saharan Africa",
+        "womenLed": true,
+        "fieldA": "Built multi-tenant SaaS backend with 8 paying pilot enterprises processing $120k monthly vendor volume.",
+        "fieldB": "Launch automated SAP/ERP integration connectors and scale to 50 enterprise clients with SOC2 certification."
+      },
+      "grants": [
+        "grant-google-women-founders",
+        "grant-mest-africa-challenge"
+      ]
+    },
+    "matches": [],
+    "roadmaps": [
+      {
+        "grant": {
+          "id": "grant-google-women-founders",
+          "name": "Google for Startups Women Founders Fund",
+          "funder": "Google for Startups",
+          "max_amount_usd": 150000,
+          "target_stage": "Early Growth",
+          "eligible_regions": [
+            "Sub-Saharan Africa",
+            "Latin America",
+            "Europe",
+            "MENA",
+            "North America"
+          ],
+          "target_sectors": [
+            "AI / Agentic",
+            "Fintech",
+            "Healthtech",
+            "Climate",
+            "Edtech",
+            "B2B SaaS"
+          ],
+          "women_led_required": true,
+          "grant_type": "Non-dilutive Grant",
+          "evaluation_criteria": [
+            "Deep technical proprietary product leveraging AI, ML, or cloud architecture",
+            "At least one female C-level founder with equity stake",
+            "Early traction metrics: MoM retention, pilot contracts, or active user growth"
+          ],
+          "application_url": "https://startup.google.com/programs/women-founders-fund/",
+          "typical_turnaround": "8 weeks",
+          "cycle_status": "Annual Recurring Cycle",
+          "deadline_note": "Annual Cohort — Equity-free cash + $100k Google Cloud credits",
+          "blindspot_warning": "Requires clear AI/data model integration; pure agency or non-proprietary software applications are disqualified in technical review.",
+          "category": "Global Women-in-Tech",
+          "synopsis": "Non-dilutive equity-free capital up to $150,000 accompanied by technical Google Cloud infrastructure credits and dedicated engineering mentorship."
+        },
+        "tranches": [
+          {
+            "id": 1,
+            "name": "Tranche 1: AI/ML Foundation & SOC2 Readiness",
+            "timeline": "Weeks 1–4",
+            "percentage": 30,
+            "amountUsd": 45000,
+            "phaseObjective": "Establish proprietary AI/ML procurement intelligence engine and initiate SOC2 compliance infrastructure to differentiate from non-proprietary competitors and satisfy Google's technical depth requirement.",
+            "deliverables": [
+              {
+                "id": "1.1",
+                "title": "Deploy proprietary ML-based spend anomaly detection model",
+                "description": "Build and deploy a machine learning model that analyzes historical vendor transaction patterns across the 8 pilot enterprises to automatically flag duplicate invoices, pricing outliers, and non-compliant spend. Model must process at least 10,000 historical transactions and achieve >85% precision on test dataset.",
+                "verificationEvidence": "Technical design document with model architecture (e.g., Random Forest, XGBoost, or neural network), Git repository commit log with ML pipeline code, model performance report showing precision/recall/F1 scores on labeled test set, and dashboard screenshot demonstrating real-time anomaly alerts in production environment."
+              },
+              {
+                "id": "1.2",
+                "title": "Launch AI-powered vendor risk scoring engine",
+                "description": "Implement NLP-based vendor risk assessment that ingests external data sources (news APIs, corporate filings, sanction lists) and generates dynamic risk scores (0-100 scale) for vendors. Engine must cover at least 500 unique vendors from pilot client base.",
+                "verificationEvidence": "API integration documentation for 3+ external data sources, database schema for vendor risk scores, sample risk report PDFs generated for 10 vendors showing score calculation methodology, and client-facing UI screenshots displaying risk ratings and trend analysis."
+              },
+              {
+                "id": "1.3",
+                "title": "Complete SOC2 Type I gap analysis and remediation plan",
+                "description": "Engage SOC2 audit firm, complete comprehensive control assessment across Trust Services Criteria (security, availability, confidentiality), document all identified gaps, and deliver board-approved remediation roadmap with assigned ownership and target completion dates.",
+                "verificationEvidence": "Signed engagement letter from accredited SOC2 audit firm (Big 4 or recognized cybersecurity auditor), gap analysis report with itemized findings mapped to SOC2 control objectives, and board meeting minutes approving remediation plan with budget allocation."
+              },
+              {
+                "id": "1.4",
+                "title": "Achieve 95%+ MoM retention rate across pilot cohort",
+                "description": "Implement customer success protocols (weekly check-ins, in-app usage analytics, NPS surveys) to maintain or improve monthly retention from current pilot base of 8 enterprises. Track and report churn, expansion revenue, and feature adoption metrics.",
+                "verificationEvidence": "Customer success dashboard export showing retention rate calculation (customers at end of month / customers at start of month), signed renewal agreements or SOWs for at least 7 of 8 pilot clients covering the tranche period, and NPS survey results with minimum 6 responses averaging >40 score."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Tranche 2: ERP Connector Automation & Enterprise Acquisition",
+            "timeline": "Weeks 5–8",
+            "percentage": 40,
+            "amountUsd": 60000,
+            "phaseObjective": "Launch production-ready automated SAP/ERP integration connectors with AI-driven data mapping and scale enterprise client base from 8 to 25+ through targeted B2B sales execution.",
+            "deliverables": [
+              {
+                "id": "2.1",
+                "title": "Launch automated SAP S/4HANA and Oracle ERP Cloud connectors",
+                "description": "Develop and release bi-directional API connectors for SAP S/4HANA and Oracle ERP Cloud that automatically sync purchase orders, invoices, and vendor master data with <5 minute latency. Include AI-powered field mapping that adapts to custom ERP configurations without manual coding.",
+                "verificationEvidence": "Connector technical specification documents with API endpoint mappings, live demo video showing end-to-end data sync between ProcureSphere and both ERP systems, Git release tags for v1.0 of each connector, and at least 2 client proof-of-concept deployments with sync logs demonstrating successful bi-directional data flow."
+              },
+              {
+                "id": "2.2",
+                "title": "Deploy cloud-native auto-scaling infrastructure on GCP",
+                "description": "Migrate core SaaS platform to Google Cloud Platform (aligns with Google for Startups) using Kubernetes for container orchestration, implement auto-scaling policies to handle 10x transaction volume spikes, and establish <200ms p95 API response times under peak load.",
+                "verificationEvidence": "GCP project console screenshots showing resource utilization, Kubernetes cluster configuration files (YAML manifests), load testing report (using tools like JMeter or Locust) demonstrating successful handling of 100,000+ concurrent API requests, and application performance monitoring dashboard (e.g., Google Cloud Monitoring) displaying p95 latency metrics."
+              },
+              {
+                "id": "2.3",
+                "title": "Acquire 17 new enterprise clients (total 25 paying enterprises)",
+                "description": "Execute targeted outbound sales campaign to Fortune 5000 procurement teams, close minimum 17 new paid annual contracts (min $15k ACV each), and onboard clients to production with active transaction processing. Focus on industries with complex vendor ecosystems (manufacturing, healthcare, retail).",
+                "verificationEvidence": "Signed Master Services Agreements (MSAs) or Order Forms from 17 new enterprise clients with executed payment terms, CRM export (Salesforce/HubSpot) showing deal progression and closed-won dates, bank statements or revenue dashboard showing contract value totaling minimum $255k ARR from new clients, and client onboarding completion checklists with go-live dates."
+              },
+              {
+                "id": "2.4",
+                "title": "Implement predictive purchase recommendation engine using collaborative filtering",
+                "description": "Build ML-based recommendation system that analyzes cross-client purchasing patterns (anonymized and aggregated) to suggest optimal vendors, contract terms, and bulk purchasing opportunities. System must generate actionable recommendations for at least 20 enterprise clients.",
+                "verificationEvidence": "Algorithm design document explaining collaborative filtering approach and data privacy safeguards, A/B test results showing recommendation acceptance rate >15% among pilot users, in-app screenshot of recommendation UI displaying suggested vendors with confidence scores, and data processing pipeline diagram showing anonymization and aggregation methods compliant with enterprise data policies."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Tranche 3: SOC2 Certification & Scale to 50 Enterprises",
+            "timeline": "Weeks 9–12",
+            "percentage": 30,
+            "amountUsd": 45000,
+            "phaseObjective": "Achieve SOC2 Type I certification to unlock enterprise sales at scale and reach 50 paying enterprise clients, validating product-market fit and satisfying grant's traction growth objectives.",
+            "deliverables": [
+              {
+                "id": "3.1",
+                "title": "Obtain SOC2 Type I certification",
+                "description": "Complete SOC2 Type I audit examining design and implementation of security controls at a point in time. Remediate all critical and high-priority findings from Tranche 1 gap analysis, pass auditor testing, and receive official SOC2 Type I report.",
+                "verificationEvidence": "Official SOC2 Type I audit report issued by accredited CPA firm with unqualified opinion (no material weaknesses), certificate of compliance with issue date within the tranche period, and customer-facing security portal or trust center webpage displaying SOC2 badge and report availability for prospects."
+              },
+              {
+                "id": "3.2",
+                "title": "Scale to 50 total paying enterprise clients",
+                "description": "Close and onboard 25 additional enterprise clients (from 25 to 50 total) leveraging SOC2 certification as sales enablement asset. Maintain average contract value of $18k+ ACV and achieve 100% onboarding completion with active monthly transaction processing exceeding $500k aggregate vendor volume.",
+                "verificationEvidence": "Financial dashboard or accounting system export showing 50 active paying enterprise clients with recurring revenue line items, signed contracts or Order Forms for the 25 new clients acquired in this tranche, CRM pipeline report showing closed-won deals with dates, and platform usage analytics demonstrating >$500k in monthly vendor transaction volume processed across the 50-client base."
+              },
+              {
+                "id": "3.3",
+                "title": "Launch AI-driven contract negotiation assistant with NLP",
+                "description": "Release natural language processing feature that extracts key terms from vendor contracts (payment terms, SLAs, termination clauses), benchmarks against industry standards, and generates negotiation talking points. Train model on minimum 1,000 procurement contracts and achieve >80% accuracy on term extraction.",
+                "verificationEvidence": "NLP model training report with accuracy/precision metrics on validation dataset, product release notes for contract assistant feature, user guide or help documentation explaining functionality, live demonstration video showing contract upload and automated term extraction with negotiation recommendations, and feedback from at least 5 enterprise users confirming feature usage in real negotiations."
+              },
+              {
+                "id": "3.4",
+                "title": "Publish technical case study demonstrating proprietary AI/ML differentiation",
+                "description": "Author and publish detailed technical case study (blog post, white paper, or conference submission) showcasing ProcureSphere's proprietary AI/ML architecture, including spend anomaly detection, vendor risk scoring, and predictive recommendations. Include quantified business impact metrics from enterprise clients (cost savings %, time reduction, risk mitigation examples).",
+                "verificationEvidence": "Published case study URL (company blog, Medium, or industry publication), document includes architecture diagrams of ML pipelines and cloud infrastructure, anonymized client results showing measurable ROI (e.g., '15% cost savings, 40% faster invoice processing'), and social proof via client testimonial quotes or logos (with permission), plus minimum 500 views/downloads or presentation acceptance at recognized tech conference (e.g., Google Cloud Next, AWS re:Invent)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "grant": {
+          "id": "grant-mest-africa-challenge",
+          "name": "MEST Africa Challenge & Seed Acceleration",
+          "funder": "MEST Africa & Meltwater Foundation",
+          "max_amount_usd": 50000,
+          "target_stage": "Early Growth",
+          "eligible_regions": [
+            "Sub-Saharan Africa"
+          ],
+          "target_sectors": [
+            "Fintech",
+            "Healthtech",
+            "AI / Agentic",
+            "Agritech",
+            "B2B SaaS",
+            "Climate"
+          ],
+          "women_led_required": false,
+          "grant_type": "Non-dilutive Grant",
+          "evaluation_criteria": [
+            "Tech-first business model operating in key African tech hubs",
+            "Demonstrated MoM user growth and recurring revenue contracts",
+            "Dynamic founding team capable of executing pan-African expansion"
+          ],
+          "application_url": "https://meltwater.org/mest-africa-challenge/",
+          "typical_turnaround": "8 weeks",
+          "cycle_status": "Annual Recurring Cycle",
+          "deadline_note": "Annual competition covering Ghana, Nigeria, Kenya, South Africa, Senegal",
+          "blindspot_warning": "Prefers scalable software IP over hardware-intensive ventures; strong technical software capability on founding team is essential.",
+          "category": "Pan-African & Emerging Markets",
+          "synopsis": "Premier pitch competition awarding up to $50,000 non-dilutive equity-free capital alongside incubation in Accra, Lagos, or Nairobi."
+        },
+        "tranches": [
+          {
+            "id": 1,
+            "name": "Tranche 1: Technical Infrastructure & Integration MVP",
+            "timeline": "Weeks 1–4",
+            "percentage": 30,
+            "amountUsd": 15000,
+            "phaseObjective": "Demonstrate technical software capability by delivering production-ready SAP/ERP integration connectors and establishing SOC2 compliance foundation—addressing the blindspot requirement for strong technical software capability and scalable software IP.",
+            "deliverables": [
+              {
+                "id": "1.1",
+                "title": "SAP B1 and Oracle NetSuite API Integration Connectors (Production-Ready)",
+                "description": "Develop, test, and deploy bidirectional API connectors for SAP Business One and Oracle NetSuite that automate vendor data synchronization, purchase order ingestion, and invoice reconciliation. Connectors must handle real-time data flows and error logging.",
+                "verificationEvidence": "GitHub repository commit log with integration code; API documentation (Swagger/OpenAPI spec); recorded demo video showing live data sync between ProcureSphere and SAP B1/NetSuite sandbox environments; QA test report with ≥95% pass rate on integration test suite."
+              },
+              {
+                "id": "1.2",
+                "title": "SOC2 Type I Readiness Assessment & Gap Analysis Report",
+                "description": "Engage a qualified third-party auditor to conduct SOC2 Type I readiness assessment. Document current security posture, identify gaps in access controls, data encryption, logging, and incident response, and produce prioritized remediation roadmap.",
+                "verificationEvidence": "Signed SOC2 readiness assessment report from certified auditor (e.g., Prescient Assurance, Vanta partner auditor); detailed gap analysis spreadsheet with 20+ control points mapped to TSC criteria; remediation project plan with owner assignments and target dates."
+              },
+              {
+                "id": "1.3",
+                "title": "MoM User Growth Baseline Report (Current 8 Clients)",
+                "description": "Establish auditable growth tracking by documenting current 8 paying enterprise clients with contract values, user seats, monthly transaction volumes, and MRR. Create dashboard to track weekly active users, transaction throughput, and contract renewals.",
+                "verificationEvidence": "Anonymized client roster Excel/CSV showing contract start dates, MRR per client, and user seat counts; screenshot of live analytics dashboard (Mixpanel, Amplitude, or custom) displaying MAU, WAU, transaction volume metrics; signed contracts or invoices (redacted) proving recurring revenue from 8 enterprises."
+              },
+              {
+                "id": "1.4",
+                "title": "Pan-African Expansion Market Prioritization Study",
+                "description": "Conduct market research across Kenya, Nigeria, Ghana, South Africa, and Côte d'Ivoire to prioritize 2 target countries for expansion. Assess enterprise density, ERP adoption rates, payment infrastructure, regulatory environment, and competitive landscape. Produce ranked matrix with go-to-market feasibility scores.",
+                "verificationEvidence": "20-page market research report with data sources cited (e.g., Statista, World Bank, local chambers of commerce); prioritization matrix scoring 5 countries across 6+ criteria; interviews summary with 3 local procurement/finance professionals or venture partners per target country (15 total); recommended 2-country expansion plan with rationale."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Tranche 2: SOC2 Certification & Client Acquisition Engine",
+            "timeline": "Weeks 5–8",
+            "percentage": 40,
+            "amountUsd": 20000,
+            "phaseObjective": "Achieve SOC2 Type I certification to unlock enterprise sales, activate scalable client acquisition channels in priority African markets, and demonstrate MoM user growth with 15+ new enterprise clients—directly fulfilling grant criteria for recurring revenue growth and pan-African expansion capability.",
+            "deliverables": [
+              {
+                "id": "2.1",
+                "title": "SOC2 Type I Certification Achieved",
+                "description": "Remediate all gaps identified in Tranche 1, implement required security controls (access management, encryption at rest/in transit, vulnerability scanning, incident response playbooks), complete auditor fieldwork, and obtain official SOC2 Type I attestation report.",
+                "verificationEvidence": "Official SOC2 Type I attestation report issued by certified CPA firm with unqualified opinion; certificate of compliance with issue date within grant period; evidence of implemented controls (screenshots of IAM policies in AWS/GCP, encryption configs, SIEM logging dashboards, incident response runbook PDF)."
+              },
+              {
+                "id": "2.2",
+                "title": "Onboard 15 Net-New Enterprise Clients (Total 23 Clients)",
+                "description": "Execute outbound sales and partnership campaigns in 2 priority African markets identified in Tranche 1. Sign 15 new recurring revenue contracts with enterprises processing ≥$50k monthly vendor spend. Prioritize businesses in manufacturing, logistics, FMCG, and financial services sectors.",
+                "verificationEvidence": "Updated client roster CSV showing 23 total clients (8 baseline + 15 new) with contract dates, MRR, industry vertical, and country; 15 signed Master Service Agreements or Order Forms (redacted/anonymized); invoice or payment receipts proving initial subscription payments; CRM export (HubSpot, Salesforce) showing closed-won deals with dates."
+              },
+              {
+                "id": "2.3",
+                "title": "MoM User Growth Evidence: 50%+ Monthly Active User Increase",
+                "description": "Demonstrate month-over-month growth in platform usage metrics. Track and report weekly active users (WAU), monthly active users (MAU), total transactions processed, and vendor volume under management from Week 5 to Week 8, targeting ≥50% MAU growth over baseline.",
+                "verificationEvidence": "Analytics dashboard export (Mixpanel, Amplitude, Metabase) showing MAU and WAU graphs from Week 1 vs. Week 8 with percentage growth labeled; transaction volume report showing total monthly vendor payments processed (anonymized $); comparison table: Baseline (8 clients, ~X MAU) vs. Week 8 (23 clients, ≥1.5X MAU)."
+              },
+              {
+                "id": "2.4",
+                "title": "Strategic Partnership MoU with African ERP Reseller or Tech Hub",
+                "description": "Negotiate and sign Memorandum of Understanding with 1 established African ERP reseller (e.g., SAP partner), system integrator, or innovation hub (e.g., MEST hub, iHub, CcHUB) to co-market ProcureSphere and accelerate enterprise introductions in target markets.",
+                "verificationEvidence": "Signed MoU or partnership agreement on partner letterhead; joint press release or LinkedIn announcement post; partnership deck or co-marketing plan PDF outlining referral terms, lead-sharing process, and co-branded webinar or event scheduled."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Tranche 3: Scale to 50 Clients & Advanced Software IP",
+            "timeline": "Weeks 9–12",
+            "percentage": 30,
+            "amountUsd": 15000,
+            "phaseObjective": "Exceed funding target by scaling to 50+ enterprise clients, enhance software IP with AI-powered spend analytics, and showcase founding team's technical execution capability—cementing ProcureSphere as a scalable, tech-first pan-African procurement SaaS.",
+            "deliverables": [
+              {
+                "id": "3.1",
+                "title": "Reach 50+ Enterprise Clients Under Contract",
+                "description": "Accelerate client acquisition through partner referrals, targeted digital campaigns, and in-market sales teams. Onboard 27 additional enterprise clients (23 from Tranche 2 + 27 = 50 total) with executed recurring revenue contracts and active platform usage.",
+                "verificationEvidence": "Final client roster CSV listing ≥50 enterprises with contract dates, MRR, country, and industry; redacted signed contracts or Order Forms for the 27 new clients; CRM pipeline report showing closed-won deal count and total ACV; customer success dashboard screenshot showing active client count ≥50 with user logins in past 30 days."
+              },
+              {
+                "id": "3.2",
+                "title": "AI-Powered Spend Analytics Module (Proprietary Software IP)",
+                "description": "Develop and deploy proprietary machine learning module that analyzes procurement transaction data to identify cost-saving opportunities, vendor consolidation recommendations, and spend anomaly alerts. Train model on aggregated anonymized transaction data from client base. Patent or trade-secret protect algorithms.",
+                "verificationEvidence": "Product release notes and changelog showing AI analytics feature launch; recorded demo video of live spend analytics dashboard with ML-generated insights (savings suggestions, anomaly detection); GitHub repo commit history for ML pipeline; 1-page technical whitepaper or IP disclosure describing model architecture and training approach; screenshot of feature usage metrics (% of clients using AI module)."
+              },
+              {
+                "id": "3.3",
+                "title": "Recurring Revenue & Financial Health Report: MRR ≥ $40k",
+                "description": "Demonstrate financial sustainability by achieving Monthly Recurring Revenue (MRR) of at least $40,000 from the 50+ enterprise clients. Calculate and report gross revenue retention (GRR), net revenue retention (NRR), customer acquisition cost (CAC), and lifetime value (LTV).",
+                "verificationEvidence": "Financial summary spreadsheet showing MRR breakdown by client, total MRR ≥$40k, GRR, NRR, CAC, and LTV calculations; bank statement or accounting software export (QuickBooks, Xero) confirming subscription revenue inflows over trailing 30 days; chart showing MRR growth trajectory from Week 1 baseline to Week 12."
+              },
+              {
+                "id": "3.4",
+                "title": "Founding Team Technical Execution Showcase & Roadmap Presentation",
+                "description": "Produce a comprehensive 15-minute video presentation delivered by the founding technical team demonstrating: (1) live ERP integrations in production, (2) SOC2-compliant infrastructure walkthrough, (3) AI analytics in action, (4) client testimonials, (5) 12-month product and expansion roadmap. Present to MEST Africa committee or record for asynchronous review.",
+                "verificationEvidence": "Recorded 15-minute founder presentation video (YouTube unlisted or Vimeo link); slide deck PDF (20-25 slides) covering architecture, integrations, security, AI IP, client growth, and roadmap; 3 client video testimonials or written case studies (1-pagers) from enterprises in different countries; LinkedIn posts or demo day announcement confirming presentation delivery."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
