@@ -1,0 +1,997 @@
+[
+  {
+    "id": "grant-cwi-reg",
+    "name": "Cartier Women's Initiative — Regional Awards",
+    "originalUrl": "https://www.cartierwomensinitiative.com/regional-awards",
+    "funder": "Cartier Philanthropy & Richemont",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.cartierwomensinitiative.com/regional-awards",
+    "redirected": false
+  },
+  {
+    "id": "grant-cwi-tech",
+    "name": "Cartier Science & Technology Pioneer Award",
+    "originalUrl": "https://www.cartierwomensinitiative.com/science-technology-pioneer-award",
+    "funder": "Cartier Women's Initiative",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.cartierwomensinitiative.com/science-technology-pioneer-award",
+    "redirected": false
+  },
+  {
+    "id": "grant-cwi-dei",
+    "name": "Cartier Diversity, Equity & Inclusion Award",
+    "originalUrl": "https://www.cartierwomensinitiative.com/diversity-equity-inclusion-award",
+    "funder": "Cartier Women's Initiative",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.cartierwomensinitiative.com/diversity-equity-inclusion-award",
+    "redirected": false
+  },
+  {
+    "id": "grant-amber-monthly",
+    "name": "WomensNet Amber Grant (Monthly Flagship)",
+    "originalUrl": "https://womensnet.net/amber-grant/",
+    "funder": "WomensNet Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://ambergrantsforwomen.com/amber-grant-application-critique-earth-soul-alchemy-llc/",
+    "redirected": true
+  },
+  {
+    "id": "grant-amber-annual",
+    "name": "WomensNet Annual Innovation & Growth Grant",
+    "originalUrl": "https://womensnet.net/amber-grant/",
+    "funder": "WomensNet Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://ambergrantsforwomen.com/amber-grant-application-critique-earth-soul-alchemy-llc/",
+    "redirected": true
+  },
+  {
+    "id": "grant-amber-tech-cat",
+    "name": "WomensNet Business Category Grant: Tech & Software",
+    "originalUrl": "https://womensnet.net/amber-grant/",
+    "funder": "WomensNet Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://ambergrantsforwomen.com/amber-grant-application-critique-earth-soul-alchemy-llc/",
+    "redirected": true
+  },
+  {
+    "id": "grant-visa-shes-next",
+    "name": "Visa She's Next Grant Program",
+    "originalUrl": "https://ifundwomen.com/visa",
+    "funder": "Visa Inc. & IFundWomen",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.ifundwomen.com/visa",
+    "redirected": true
+  },
+  {
+    "id": "grant-google-women-founders",
+    "name": "Google for Startups Women Founders Fund",
+    "originalUrl": "https://startup.google.com/programs/women-founders-fund/",
+    "funder": "Google for Startups",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://startup.google.com/programs/women-founders-fund/",
+    "redirected": false
+  },
+  {
+    "id": "grant-tory-burch",
+    "name": "Tory Burch Foundation Fellows Program",
+    "originalUrl": "https://www.toryburchfoundation.org/fellows/",
+    "funder": "Tory Burch Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.toryburchfoundation.org/fellows/",
+    "redirected": false
+  },
+  {
+    "id": "grant-ifundwomen-universal",
+    "name": "IFundWomen Universal Grant Pool",
+    "originalUrl": "https://www.ifundwomen.com/apply-for-grants",
+    "funder": "IFundWomen & Enterprise Partners",
+    "status": 403,
+    "ok": false,
+    "finalUrl": "https://www.ifundwomen.com/grants/apply-for-grants",
+    "redirected": true
+  },
+  {
+    "id": "grant-halcyon-women",
+    "name": "Halcyon Women's Venture Fellowship",
+    "originalUrl": "https://halcyonaccelerator.org/fellowships/",
+    "funder": "Halcyon Incubator & Amazon Web Services",
+    "status": 404,
+    "ok": false,
+    "finalUrl": "https://halcyonaccelerator.org/fellowships/",
+    "redirected": false
+  },
+  {
+    "id": "grant-halcyon-climate",
+    "name": "Halcyon Climate & Energy Fellowship",
+    "originalUrl": "https://halcyonhouse.org/fellowships/climate/",
+    "funder": "Halcyon & Department of Energy Partners",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://halcyonaccelerator.org/climate/",
+    "redirected": true
+  },
+  {
+    "id": "grant-shelovestech",
+    "name": "She Loves Tech Global Competition & Accelerator Grant",
+    "originalUrl": "https://www.shelovestech.org/competition",
+    "funder": "She Loves Tech & Global Venture Partners",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.shelovestech.org/competition",
+    "redirected": false
+  },
+  {
+    "id": "grant-galaxy-grant",
+    "name": "The Galaxy Grant for Women & Diversity Founders",
+    "originalUrl": "https://galaxyofstars.org/galaxy-grant/",
+    "funder": "Hidden River Arts & Diversity Fund",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://galaxyofstars.org/galaxy-grants/",
+    "redirected": true
+  },
+  {
+    "id": "grant-sogal-black-founder",
+    "name": "SoGal Foundation Black Founder Startup Grant",
+    "originalUrl": "https://www.sogalfoundation.org/black-founder-startup-grant",
+    "funder": "SoGal Foundation & Winky Lux",
+    "status": "ERR",
+    "ok": false,
+    "error": "fetch failed"
+  },
+  {
+    "id": "grant-innovate-uk-women",
+    "name": "Innovate UK Women in Innovation Award",
+    "originalUrl": "https://www.gov.uk/government/organisations/innovate-uk",
+    "funder": "UK Research and Innovation (UKRI)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.gov.uk/government/organisations/innovate-uk",
+    "redirected": false
+  },
+  {
+    "id": "grant-she-loves-tech",
+    "name": "She Loves Tech Global Competition & Acceleration Grant",
+    "originalUrl": "https://www.shelovestech.org/",
+    "funder": "She Loves Tech & Microsoft",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.shelovestech.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-boundless-empowher",
+    "name": "Boundless Futures Foundation 'EmpowHer' Grant",
+    "originalUrl": "https://boundlessfutures.org/our-grants/",
+    "funder": "Boundless Futures Foundation",
+    "status": 403,
+    "ok": false,
+    "finalUrl": "https://boundlessfutures.org/our-grants/",
+    "redirected": false
+  },
+  {
+    "id": "grant-stacy-rise",
+    "name": "Stacy's Rise Project Grant",
+    "originalUrl": "https://helloalice.com/funding/stacys-rise-project/",
+    "funder": "PepsiCo / Frito-Lay",
+    "status": 429,
+    "ok": false,
+    "finalUrl": "https://helloalice.com/funding/stacys-rise-project/",
+    "redirected": false
+  },
+  {
+    "id": "grant-sc-women-in-tech",
+    "name": "Standard Chartered Women in Tech Incubator Grant",
+    "originalUrl": "https://www.sc.com/en/sustainability/community/women-in-tech/",
+    "funder": "Standard Chartered Bank & Strathmore / CcHUB",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.sc.com/en/news/women-in-tech/",
+    "redirected": true
+  },
+  {
+    "id": "grant-cherie-blair",
+    "name": "Cherie Blair Foundation for Women Enterprise Fund",
+    "originalUrl": "https://cherieblairfoundation.org/",
+    "funder": "Cherie Blair Foundation & Qualcomm Wireless Reach",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://cherieblairfoundation.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-galaxy-grants",
+    "name": "Galaxy Grants for Women & Minority Founders",
+    "originalUrl": "https://galaxyofstars.org/galaxy-grants/",
+    "funder": "Hidden Star & Galaxy of Stars Non-Profit",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://galaxyofstars.org/galaxy-grants/",
+    "redirected": false
+  },
+  {
+    "id": "grant-mozilla-tech-fund",
+    "name": "Mozilla Technology Fund & Open Source Grants",
+    "originalUrl": "https://foundation.mozilla.org/en/what-we-fund/awards/mozilla-technology-fund/",
+    "funder": "Mozilla Foundation",
+    "status": 403,
+    "ok": false,
+    "finalUrl": "https://www.mozillafoundation.org/en/what-we-do/grantmaking",
+    "redirected": true
+  },
+  {
+    "id": "grant-loreal-unesco",
+    "name": "L'Oréal-UNESCO For Women in Science Young Talents",
+    "originalUrl": "https://www.forwomeninscience.com/",
+    "funder": "Fondation L'Oréal & UNESCO",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.forwomeninscience.com/",
+    "redirected": false
+  },
+  {
+    "id": "grant-bgv-pitch",
+    "name": "Black Girl Ventures (BGV) Pitch Competition & Grant",
+    "originalUrl": "https://www.blackgirlventures.org/",
+    "funder": "Black Girl Ventures & Nike Inc.",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.bgvfoundation.org/",
+    "redirected": true
+  },
+  {
+    "id": "grant-fearless-strivers",
+    "name": "Fearless Strivers Grant Program",
+    "originalUrl": "https://www.fearless.fund/",
+    "funder": "Fearless Fund & The Tory Burch Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.fearless.fund/",
+    "redirected": false
+  },
+  {
+    "id": "grant-schmidt-ai2050",
+    "name": "Schmidt Futures AI2050 Early Career Fellowships & Grants",
+    "originalUrl": "https://ai2050.schmidtfutures.com/",
+    "funder": "Schmidt Sciences & Eric Schmidt",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://ai2050.schmidtsciences.org/",
+    "redirected": true
+  },
+  {
+    "id": "grant-fearless-fund",
+    "name": "Fearless Foundation Women of Color Business Grant",
+    "originalUrl": "https://www.fearless.fund/initiatives",
+    "funder": "Fearless Foundation & Corporate Allies",
+    "status": 404,
+    "ok": false,
+    "finalUrl": "https://www.fearless.fund/initiatives",
+    "redirected": false
+  },
+  {
+    "id": "grant-girlboss-foundation",
+    "name": "Girlboss Foundation Creative Tech Grant",
+    "originalUrl": "https://www.girlboss.com/foundation",
+    "funder": "Girlboss Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://girlboss.com/",
+    "redirected": true
+  },
+  {
+    "id": "grant-foundher-pacific",
+    "name": "FoundHer Pacific & Emerging Women Grant",
+    "originalUrl": "https://foundher.org/",
+    "funder": "Purple Maiʻa Foundation & Native Hawaiian Trust",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.foundher.org/",
+    "redirected": true
+  },
+  {
+    "id": "grant-fedex-smallbiz",
+    "name": "FedEx Global Small Business Grant",
+    "originalUrl": "https://www.fedex.com/en-us/small-business/grant-contest.html",
+    "funder": "FedEx Corporation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.fedex.com/en-us/small-business/grants.html",
+    "redirected": true
+  },
+  {
+    "id": "grant-fastforward-tech",
+    "name": "Fast Forward Tech Non-Profit Accelerator Grant",
+    "originalUrl": "https://www.ffwd.org/accelerator/",
+    "funder": "Fast Forward & Google.org",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.ffwd.org/accelerator",
+    "redirected": true
+  },
+  {
+    "id": "grant-radicalxchange",
+    "name": "RadicalxChange Governance & Plural Tech Grant",
+    "originalUrl": "https://www.radicalxchange.org/",
+    "funder": "RadicalxChange Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.radicalxchange.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-openai-researcher",
+    "name": "OpenAI Researcher Access & Fast Research Grants",
+    "originalUrl": "https://openai.com/form/researcher-access-program/",
+    "funder": "OpenAI",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://openai.com/form/researcher-access-program/",
+    "redirected": false
+  },
+  {
+    "id": "grant-women-ai-awards",
+    "name": "Women in AI Global Innovation Grant",
+    "originalUrl": "https://www.womeninai.co/",
+    "funder": "Women in AI (WAI) Global Network",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.womeninai.co/",
+    "redirected": false
+  },
+  {
+    "id": "grant-d-prize",
+    "name": "D-Prize Global Poverty Alleviation Seed Grant",
+    "originalUrl": "https://www.d-prize.org/",
+    "funder": "D-Prize Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://d-prize.org/",
+    "redirected": true
+  },
+  {
+    "id": "grant-tef-entrepreneurship",
+    "name": "Tony Elumelu Foundation Entrepreneurship Programme",
+    "originalUrl": "https://www.tonyelumelufoundation.org/",
+    "funder": "Tony Elumelu Foundation (TEF)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.tonyelumelufoundation.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-africas-business-heroes",
+    "name": "Africa's Business Heroes (ABH) Prize Fund",
+    "originalUrl": "https://africabusinessheroes.org/",
+    "funder": "Jack Ma Foundation & Alibaba Philanthropy",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://africabusinessheroes.org/en/",
+    "redirected": true
+  },
+  {
+    "id": "grant-awief-accelerator",
+    "name": "AWIEF Growth Accelerator Seed Program",
+    "originalUrl": "https://www.awieforum.org/",
+    "funder": "Africa Women Innovation & Entrepreneurship Forum",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.awieforum.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-afdb-afawa",
+    "name": "AfDB Affirmative Finance Action for Women in Africa (AFAWA)",
+    "originalUrl": "https://www.afdb.org/en/topics-and-sectors/initiatives-partnerships/affirmative-finance-action-women-africa-afawa",
+    "funder": "African Development Bank Group (AfDB)",
+    "status": 403,
+    "ok": false,
+    "finalUrl": "https://www.afdb.org/en/topics-and-sectors/initiatives-partnerships/affirmative-finance-action-women-africa-afawa",
+    "redirected": false
+  },
+  {
+    "id": "grant-villgro-healthtech",
+    "name": "Villgro Africa Healthcare Innovation Seed Grant",
+    "originalUrl": "https://villgroafrica.org/",
+    "funder": "Villgro Africa & Lemelson Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://villgroafrica.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-mest-africa-challenge",
+    "name": "MEST Africa Challenge & Seed Acceleration",
+    "originalUrl": "https://meltwater.org/mest-africa-challenge/",
+    "funder": "MEST Africa & Meltwater Foundation",
+    "status": 404,
+    "ok": false,
+    "finalUrl": "https://meltwater.org/event/mest-africa-challenge/",
+    "redirected": true
+  },
+  {
+    "id": "grant-anzisha-prize",
+    "name": "The Anzisha Prize for Young African Founders",
+    "originalUrl": "https://anzishaprize.org/",
+    "funder": "African Leadership Academy & Mastercard Foundation",
+    "status": "ERR",
+    "ok": false,
+    "error": "fetch failed"
+  },
+  {
+    "id": "grant-gsma-innovation",
+    "name": "GSMA Innovation Fund for Digital Inclusion & Climate",
+    "originalUrl": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/the-mobile-for-development-innovation-fund/",
+    "funder": "GSMA & UK Foreign, Commonwealth & Development Office (FCDO)",
+    "status": 403,
+    "ok": false,
+    "finalUrl": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/the-mobile-for-development-innovation-fund/",
+    "redirected": false
+  },
+  {
+    "id": "grant-aecf-agtech",
+    "name": "Africa Enterprise Challenge Fund (AECF) Agtech Facility",
+    "originalUrl": "https://www.aecfafrica.org/",
+    "funder": "AECF & Global Affairs Canada",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.aecfafrica.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-usadf-offgrid",
+    "name": "USADF Off-Grid Energy & Agritech Challenge",
+    "originalUrl": "https://www.usadf.org/",
+    "funder": "U.S. African Development Foundation & All On",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.usadf.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-injini-edtech",
+    "name": "Injini Pan-African EdTech Challenge Grant",
+    "originalUrl": "https://www.injini.africa/",
+    "funder": "Injini & Mastercard Foundation EdTech Hub",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.injini.africa/",
+    "redirected": false
+  },
+  {
+    "id": "grant-orange-social-venture",
+    "name": "Orange Social Venture Prize (OSVP Africa & Middle East)",
+    "originalUrl": "https://poesam.orange.com/en/",
+    "funder": "Orange Telecom Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://poesam.orange.com/en",
+    "redirected": true
+  },
+  {
+    "id": "grant-totalenergies-startupper",
+    "name": "TotalEnergies Startupper of the Year Challenge",
+    "originalUrl": "https://startupper.totalenergies.com/",
+    "funder": "TotalEnergies Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://startupper.totalenergies.com/fr",
+    "redirected": true
+  },
+  {
+    "id": "grant-bayer-empowerment",
+    "name": "Bayer Foundation Women Empowerment Award",
+    "originalUrl": "https://www.bayer-foundation.com/what-we-do/empowering-women/women-empowerment-award",
+    "funder": "Bayer Foundation",
+    "status": 404,
+    "ok": false,
+    "finalUrl": "https://www.bayer-foundation.com/what-we-do/empowering-women/women-empowerment-award",
+    "redirected": false
+  },
+  {
+    "id": "grant-catalyst-fund",
+    "name": "Catalyst Fund Inclusive Fintech & Climate Tech Grant",
+    "originalUrl": "https://www.bfacatalystfund.com/",
+    "funder": "BFA Global & UK aid",
+    "status": "ERR",
+    "ok": false,
+    "error": "fetch failed"
+  },
+  {
+    "id": "grant-wfp-accelerator",
+    "name": "WFP Innovation Accelerator Seed Grant",
+    "originalUrl": "https://innovation.wfp.org/",
+    "funder": "United Nations World Food Programme",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://innovation.wfp.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-eep-africa",
+    "name": "EEP Africa Clean Energy Innovation Fund",
+    "originalUrl": "https://eepafrica.org/",
+    "funder": "Nordic Development Fund (NDF) & Ministry for Foreign Affairs of Finland",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://eepafrica.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-global-innovation-fund",
+    "name": "Global Innovation Fund (GIF) Pilot Grant",
+    "originalUrl": "https://www.globalinnovation.fund/",
+    "funder": "Global Innovation Fund & USAID / FCDO",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.globalinnovation.fund/",
+    "redirected": false
+  },
+  {
+    "id": "grant-miller-center",
+    "name": "Miller Center Social Entrepreneurship Accelerator Grant",
+    "originalUrl": "https://www.millersocent.org/",
+    "funder": "Miller Center for Social Entrepreneurship & Santa Clara University",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://millercenterglobal.org/",
+    "redirected": true
+  },
+  {
+    "id": "grant-finca-ventures",
+    "name": "FINCA Ventures Forward Together Grant",
+    "originalUrl": "https://fincaventures.com/",
+    "funder": "FINCA International",
+    "status": 403,
+    "ok": false,
+    "finalUrl": "https://fincaventures.com/",
+    "redirected": false
+  },
+  {
+    "id": "grant-harambeans-fund",
+    "name": "Harambeans Prosperity Fund Seed Facility",
+    "originalUrl": "https://harambeans.com/",
+    "funder": "Harambe Entrepreneur Alliance & Cisco Systems",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.harambeans.com/",
+    "redirected": true
+  },
+  {
+    "id": "grant-sahel-impact",
+    "name": "Sahel Capital Social Impact Seed Fund",
+    "originalUrl": "https://sahelcp.com/",
+    "funder": "Sahel Capital Agribusiness",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://sahelcp.com/",
+    "redirected": false
+  },
+  {
+    "id": "grant-jasiri-investor",
+    "name": "Jasiri Talent Investor Venture Grant",
+    "originalUrl": "https://jasiri.org/",
+    "funder": "Allan & Gill Gray Philanthropy (AGGP)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://jasiri.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-cchub-seed",
+    "name": "CcHUB Seed Mentorship & Venture Grants",
+    "originalUrl": "https://cchub.africa/",
+    "funder": "Co-Creation Hub (CcHUB Africa)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://cchub.africa/",
+    "redirected": false
+  },
+  {
+    "id": "grant-afrilabs-capacity",
+    "name": "AfriLabs Innovation & Capacity Grant Fund",
+    "originalUrl": "https://afrilabs.com/",
+    "funder": "AfriLabs & Agence Française de Développement (AFD)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.afrilabs.com/",
+    "redirected": true
+  },
+  {
+    "id": "grant-hiil-justice",
+    "name": "HiiL Innovating Justice Challenge Grant",
+    "originalUrl": "https://www.hiil.org/innovating-justice-challenge/",
+    "funder": "The Hague Institute for Innovation of Law (HiiL)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://hiil.org/programmes/the-justice-accelerator/acceleration-programme/",
+    "redirected": true
+  },
+  {
+    "id": "grant-fsd-africa",
+    "name": "FSD Africa Fintech Innovation Challenge",
+    "originalUrl": "https://fsdafrica.org/",
+    "funder": "Financial Sector Deepening Africa (UK aid)",
+    "status": "ERR",
+    "ok": false,
+    "error": "fetch failed"
+  },
+  {
+    "id": "grant-westerwelle-young",
+    "name": "Westerwelle Foundation Young Founders Grant",
+    "originalUrl": "https://westerwelle-foundation.com/programmes/young-founders-programme/",
+    "funder": "Westerwelle Foundation (Berlin)",
+    "status": 404,
+    "ok": false,
+    "finalUrl": "https://westerwelle-foundation.com/programmes/young-founders-programme/",
+    "redirected": false
+  },
+  {
+    "id": "grant-seedstars-programs",
+    "name": "Seedstars Emerging Market Micro-Grants",
+    "originalUrl": "https://www.seedstars.com/",
+    "funder": "Seedstars World & Swiss Confederation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.seedstars.com/",
+    "redirected": false
+  },
+  {
+    "id": "grant-bopinc-inclusive",
+    "name": "Bopinc Inclusive Innovation Fund",
+    "originalUrl": "https://bopinc.org/",
+    "funder": "Bopinc & Dutch Ministry of Foreign Affairs",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://bopinc.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-rwanda-innovation-fund",
+    "name": "Rwanda Innovation Fund Seed Pilot Facility",
+    "originalUrl": "https://www.minict.gov.rw/",
+    "funder": "Government of Rwanda & African Development Bank",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.minict.gov.rw/",
+    "redirected": false
+  },
+  {
+    "id": "grant-daayta-award",
+    "name": "Deji Alli ARM Young Talent Award (DAAYTA)",
+    "originalUrl": "https://www.arm.com.ng/daayta/",
+    "funder": "ARM (Asset & Resource Management Holding Company)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.arm.com.ng/daayta-2015/",
+    "redirected": true
+  },
+  {
+    "id": "grant-bongohive-innovation",
+    "name": "BongoHive Innovation & FinTech Challenge",
+    "originalUrl": "https://bongohive.co.zm/",
+    "funder": "BongoHive Zambia & FSD Zambia",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://bongohive.co.zm/",
+    "redirected": false
+  },
+  {
+    "id": "grant-base-builder",
+    "name": "Base Builder Grants",
+    "originalUrl": "https://www.base.org/",
+    "funder": "Base Ecosystem & Coinbase",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.base.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-stellar-scf",
+    "name": "Stellar Community Fund (SCF) Milestone Grants",
+    "originalUrl": "https://communityfund.stellar.org/",
+    "funder": "Stellar Development Foundation (SDF)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://communityfund.stellar.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-gitcoin-grants",
+    "name": "Gitcoin Grants Quadratic Funding Pool",
+    "originalUrl": "https://grants.gitcoin.co/",
+    "funder": "Gitcoin & Community Matching Partners",
+    "status": "ERR",
+    "ok": false,
+    "error": "fetch failed"
+  },
+  {
+    "id": "grant-optimism-retro",
+    "name": "Optimism Retroactive Public Goods Funding (Retro Funding)",
+    "originalUrl": "https://app.optimism.io/retropgf",
+    "funder": "Optimism Collective & Citizens' House",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://app.optimism.io/retropgf",
+    "redirected": false
+  },
+  {
+    "id": "grant-arbitrum-foundation",
+    "name": "Arbitrum Foundation Grants Program",
+    "originalUrl": "https://arbitrum.foundation/grants",
+    "funder": "Arbitrum Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://arbitrum.foundation/grants",
+    "redirected": false
+  },
+  {
+    "id": "grant-uniswap-foundation",
+    "name": "Uniswap Foundation Grants Program",
+    "originalUrl": "https://www.uniswapfoundation.org/grants",
+    "funder": "Uniswap Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.uniswapfoundation.org/grants",
+    "redirected": false
+  },
+  {
+    "id": "grant-ethereum-esp",
+    "name": "Ethereum Foundation Ecosystem Support Program (ESP)",
+    "originalUrl": "https://esp.ethereum.foundation/",
+    "funder": "Ethereum Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://esp.ethereum.foundation/",
+    "redirected": false
+  },
+  {
+    "id": "grant-solana-foundation",
+    "name": "Solana Foundation Grants & Ecosystem Support",
+    "originalUrl": "https://solana.foundation/grants",
+    "funder": "Solana Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://solana.org/grants-funding",
+    "redirected": true
+  },
+  {
+    "id": "grant-filecoin-foundation",
+    "name": "Filecoin Foundation & Protocol Labs Public Goods Grant",
+    "originalUrl": "https://fil.org/grants/",
+    "funder": "Filecoin Foundation",
+    "status": 429,
+    "ok": false,
+    "finalUrl": "https://fil.org/grants/",
+    "redirected": false
+  },
+  {
+    "id": "grant-polygon-village",
+    "name": "Polygon Village Builder Grants",
+    "originalUrl": "https://polygon.technology/village",
+    "funder": "Polygon Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://hadronfc.com/",
+    "redirected": true
+  },
+  {
+    "id": "grant-near-foundation",
+    "name": "NEAR Foundation Ecosystem & AI Grants",
+    "originalUrl": "https://near.org/ecosystem/grants/",
+    "funder": "NEAR Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.near.org/ecosystem/grants",
+    "redirected": true
+  },
+  {
+    "id": "grant-icp-developer",
+    "name": "Internet Computer (ICP) Developer Grants",
+    "originalUrl": "https://dfinity.org/grants",
+    "funder": "DFINITY Foundation",
+    "status": 503,
+    "ok": false,
+    "finalUrl": "https://dfinity.org/grants",
+    "redirected": false
+  },
+  {
+    "id": "grant-starknet-early",
+    "name": "Starknet Foundation Early Builder Grants",
+    "originalUrl": "https://starknet.io/grants/",
+    "funder": "Starknet Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.starknet.io/grants/",
+    "redirected": true
+  },
+  {
+    "id": "grant-sui-developer",
+    "name": "Sui Foundation Developer Grants Program",
+    "originalUrl": "https://sui.io/developer-grants",
+    "funder": "Sui Foundation & Mysten Labs",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.sui.io/programs-funding",
+    "redirected": true
+  },
+  {
+    "id": "grant-chainlink-community",
+    "name": "Chainlink Community & Oracle Grant Program",
+    "originalUrl": "https://chain.link/community/grants",
+    "funder": "Chainlink Foundation",
+    "status": 404,
+    "ok": false,
+    "finalUrl": "https://chain.link/community/grants",
+    "redirected": false
+  },
+  {
+    "id": "grant-polkadot-treasury",
+    "name": "Polkadot Treasury OpenGov Decentralized Grants",
+    "originalUrl": "https://polkadot.network/community/treasury/",
+    "funder": "Polkadot OpenGov Community",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://polkadot.com/",
+    "redirected": true
+  },
+  {
+    "id": "grant-aleo-zk",
+    "name": "Aleo Zero-Knowledge (ZK) Developer Grants",
+    "originalUrl": "https://aleo.org/grants/",
+    "funder": "Aleo Network Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://aleo.org/grants/",
+    "redirected": false
+  },
+  {
+    "id": "grant-celestia-modular",
+    "name": "Celestia Modular Builders Grant",
+    "originalUrl": "https://celestia.org/",
+    "funder": "Celestia Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://celestia.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-hrf-bitcoin",
+    "name": "Human Rights Foundation (HRF) Freedom Tech Grant",
+    "originalUrl": "https://hrf.org/devfund",
+    "funder": "Human Rights Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://hrf.org/program/financial-freedom/bitcoin-development-fund/",
+    "redirected": true
+  },
+  {
+    "id": "grant-protocol-labs-research",
+    "name": "Protocol Labs Research & Distributed Systems Grant",
+    "originalUrl": "https://research.protocol.ai/",
+    "funder": "Protocol Labs Research",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.plrd.org/",
+    "redirected": true
+  },
+  {
+    "id": "grant-usaid-div",
+    "name": "USAID Development Innovation Ventures (DIV) — Stage 1",
+    "originalUrl": "https://www.usaid.gov/div",
+    "funder": "U.S. Agency for International Development (USAID)",
+    "status": 403,
+    "ok": false,
+    "finalUrl": "https://www.usaid.gov/div",
+    "redirected": false
+  },
+  {
+    "id": "grant-deg-developpp",
+    "name": "DEG develoPPP Ventures Matching Grant",
+    "originalUrl": "https://www.developpp.de/en/ventures",
+    "funder": "German Federal Ministry for Economic Cooperation and Development (BMZ) & DEG",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.developpp.de/en/funding-programme/startups/",
+    "redirected": true
+  },
+  {
+    "id": "grant-climate-kic",
+    "name": "EIT Climate-KIC Pioneer Grants",
+    "originalUrl": "https://www.climate-kic.org/",
+    "funder": "European Institute of Innovation & Technology",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.climate-kic.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-mit-solve",
+    "name": "Solve at MIT Global Challenges Grant",
+    "originalUrl": "https://solve.mit.edu/",
+    "funder": "Massachusetts Institute of Technology (MIT)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://solve.mit.edu/",
+    "redirected": false
+  },
+  {
+    "id": "grant-roddenberry-catalyst",
+    "name": "The Roddenberry Foundation Catalyst Grant",
+    "originalUrl": "https://roddenberryfoundation.org/our-work/catalyst-grant/",
+    "funder": "The Roddenberry Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://roddenberryfoundation.org/",
+    "redirected": true
+  },
+  {
+    "id": "grant-eic-accelerator",
+    "name": "European Innovation Council (EIC) Accelerator Grant",
+    "originalUrl": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+    "funder": "European Commission",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+    "redirected": false
+  },
+  {
+    "id": "grant-un-women-gif",
+    "name": "UN Women Global Innovation Facility Grants",
+    "originalUrl": "https://www.unwomen.org/",
+    "funder": "United Nations Entity for Gender Equality (UN Women)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.unwomen.org/en",
+    "redirected": true
+  },
+  {
+    "id": "grant-xprize-seed",
+    "name": "XPRIZE Global Innovation & Carbon Seed Grants",
+    "originalUrl": "https://www.xprize.org/",
+    "funder": "XPRIZE Foundation & Musk Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.xprize.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-macarthur-tech",
+    "name": "MacArthur Foundation Technology & Democracy Grants",
+    "originalUrl": "https://www.macfound.org/",
+    "funder": "John D. and Catherine T. MacArthur Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.macfound.org/",
+    "redirected": false
+  },
+  {
+    "id": "grant-open-society-tech",
+    "name": "Open Society Foundations Digital Freedom Seed Fund",
+    "originalUrl": "https://www.opensocietyfoundations.org/grants",
+    "funder": "Open Society Foundations (OSF)",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://www.opensocietyfoundations.org/grants",
+    "redirected": false
+  },
+  {
+    "id": "grant-mina-zkapps",
+    "name": "Mina Foundation zkApps Builders Grant",
+    "originalUrl": "https://minaprotocol.com/grants",
+    "funder": "Mina Foundation",
+    "status": 200,
+    "ok": true,
+    "finalUrl": "https://minaprotocol.com/grants-wip",
+    "redirected": true
+  }
+]

@@ -348,7 +348,7 @@
       "Demonstrated product-market fit indicator or validated user problem",
       "Precise capital deployment budget for critical operational bottlenecks"
     ],
-    "application_url": "https://ifundwomen.com/grants",
+    "application_url": "https://www.ifundwomen.com/apply-for-grants",
     "typical_turnaround": "4–6 weeks",
     "cycle_status": "Rolling / Always Open",
     "deadline_note": "Continuous database matching with enterprise sponsors (Caress, Neutrogena, Visa)",
@@ -383,7 +383,7 @@
       "Early validated working prototype with initial user telemetry",
       "Full-time commitment of female founder to 8-month cohort curriculum"
     ],
-    "application_url": "https://halcyonhouse.org/fellowships/",
+    "application_url": "https://www.halcyonhouse.org/programs",
     "typical_turnaround": "8 weeks",
     "cycle_status": "Annual Recurring Cycle",
     "deadline_note": "Annual Cohort — $10k cash stipend + $20k non-dilutive travel & cloud support",
@@ -425,9 +425,9 @@
     "synopsis": "Non-dilutive funding, residency, and venture support for female and diverse climate founders tackling global net-zero goals."
   },
   {
-    "id": "grant-anitab-pitcher",
-    "name": "AnitaB.org PitcHER Competition",
-    "funder": "AnitaB.org & Grace Hopper Celebration",
+    "id": "grant-shelovestech",
+    "name": "She Loves Tech Global Competition & Accelerator Grant",
+    "funder": "She Loves Tech & Global Venture Partners",
     "max_amount_usd": 50000,
     "target_stage": "Prototype / MVP",
     "eligible_regions": [
@@ -451,13 +451,13 @@
       "Technical viability and novelty of architecture",
       "Executive pitch readiness and delivery during finals"
     ],
-    "application_url": "https://anitab.org/pitcher/",
+    "application_url": "https://www.shelovestech.org/competition",
     "typical_turnaround": "6 weeks",
     "cycle_status": "Annual Recurring Cycle",
     "deadline_note": "Annual Grace Hopper Celebration Pitch Competition",
     "blindspot_warning": "Requires video pitch demonstration of functioning software; slides-only submissions are eliminated in pre-screening.",
     "category": "Global Women-in-Tech",
-    "synopsis": "Premier pitch competition for women in technology hosted alongside the world's largest gathering of female technologists."
+    "synopsis": "World's largest female tech startup competition awarding ,000+ non-dilutive capital, global exposure, and tier-1 accelerator access."
   },
   {
     "id": "grant-galaxy-grant",
@@ -521,7 +521,7 @@
       "High-growth scalable venture business model",
       "Plan to seek subsequent venture funding or self-sustaining revenue"
     ],
-    "application_url": "https://www.iamsogal.com/black-founder-startup-grant/",
+    "application_url": "https://www.sogalfoundation.org/black-founder-startup-grant",
     "typical_turnaround": "4 weeks",
     "cycle_status": "Rolling / Always Open",
     "deadline_note": "Rolling monthly selection for $10k and $5k cash grants",
@@ -624,7 +624,7 @@
       "Well-defined 90-day milestone execution plan",
       "Demonstrated financial responsibility and clear cost accounting"
     ],
-    "application_url": "https://boundlessfutures.org/empowher-grants/",
+    "application_url": "https://boundlessfutures.org/our-grants/",
     "typical_turnaround": "6 weeks",
     "cycle_status": "Rolling / Always Open",
     "deadline_note": "Quarterly grant review cycles (up to $25k per award)",
@@ -656,7 +656,7 @@
       "Demonstrated commercial traction with $25k+ prior year revenue",
       "Compelling brand narrative and community commitment"
     ],
-    "application_url": "https://stacysrise.helloalice.com/",
+    "application_url": "https://helloalice.com/funding/stacys-rise-project/",
     "typical_turnaround": "6 weeks",
     "cycle_status": "Annual Recurring Cycle",
     "deadline_note": "Annual 10-laureate cohort ($25k each + executive mentorship)",
@@ -731,10 +731,10 @@
     "synopsis": "Global foundation championing women entrepreneurs in emerging markets with seed capital, business training, and digital skills."
   },
   {
-    "id": "grant-femalefounders-fund",
-    "name": "Female Founders Public Good Grants",
-    "funder": "Female Founders Alliance & Partners",
-    "max_amount_usd": 20000,
+    "id": "grant-galaxy-grants",
+    "name": "Galaxy Grants for Women & Minority Founders",
+    "funder": "Hidden Star & Galaxy of Stars Non-Profit",
+    "max_amount_usd": 5000,
     "target_stage": "Idea",
     "eligible_regions": [
       "Global",
@@ -755,18 +755,18 @@
       "Pragmatic plan to deploy micro-capital for user validation experiments",
       "Community collaboration commitment"
     ],
-    "application_url": "https://femalefounders.org/",
+    "application_url": "https://galaxyofstars.org/galaxy-grants/",
     "typical_turnaround": "4 weeks",
     "cycle_status": "Rolling / Always Open",
     "deadline_note": "Quarterly non-dilutive allocations to early-stage innovators",
     "blindspot_warning": "Requires transparent financial accounting and commitment to share learnings openly with the founder community.",
     "category": "Global Women-in-Tech",
-    "synopsis": "Community-backed non-dilutive grant helping women founders bridge the critical pre-seed gap with zero dilution."
+    "synopsis": "Zero-barrier grant program offering micro-funding (,750–,000) for female and underrepresented founders to launch products."
   },
   {
-    "id": "grant-deeptech-fastgrants",
-    "name": "Fast Grants for Female AI & Frontier Tech Researchers",
-    "funder": "Emergent Ventures & Frontier Philanthropy",
+    "id": "grant-mozilla-tech-fund",
+    "name": "Mozilla Technology Fund & Open Source Grants",
+    "funder": "Mozilla Foundation",
     "max_amount_usd": 50000,
     "target_stage": "Prototype / MVP",
     "eligible_regions": [
@@ -784,13 +784,13 @@
       "Immediate capability to deploy funds within 48 hours of receipt",
       "Demonstrated track record of elite technical or academic execution"
     ],
-    "application_url": "https://fastgrants.org/",
+    "application_url": "https://foundation.mozilla.org/en/what-we-fund/awards/mozilla-technology-fund/",
     "typical_turnaround": "1–2 weeks",
     "cycle_status": "Rolling / Always Open",
     "deadline_note": "Decisions rendered within 14 days of application submission",
     "blindspot_warning": "Applicants must demonstrate high-velocity technical output; lack of active GitHub or research pre-prints reduces score.",
     "category": "Global Women-in-Tech",
-    "synopsis": "Ultra-fast decision turnaround non-dilutive grants ranging from $10,000 to $50,000 for high-caliber female technologists in AI and biology."
+    "synopsis": "Premier non-dilutive awards (k) for technologists and researchers building open-source AI, trustworthy tech, and public digital goods."
   },
   {
     "id": "grant-loreal-unesco",
@@ -890,10 +890,10 @@
     "synopsis": "Non-dilutive business grants and tools specifically built to bridge capital allocation inequities for women of color."
   },
   {
-    "id": "grant-eileen-fisher",
-    "name": "Eileen Fisher Women-Owned Business Grant",
-    "funder": "Eileen Fisher Foundation",
-    "max_amount_usd": 40000,
+    "id": "grant-schmidt-ai2050",
+    "name": "Schmidt Futures AI2050 Early Career Fellowships & Grants",
+    "funder": "Schmidt Sciences & Eric Schmidt",
+    "max_amount_usd": 100000,
     "target_stage": "Early Growth",
     "eligible_regions": [
       "Global",
@@ -911,18 +911,18 @@
       "Minimum 3 consecutive years of profitable commercial operations",
       "Pioneering sustainable supply chain or textile technology"
     ],
-    "application_url": "https://www.eileenfisher.com/grants",
+    "application_url": "https://ai2050.schmidtfutures.com/",
     "typical_turnaround": "8 weeks",
     "cycle_status": "Annual Recurring Cycle",
     "deadline_note": "Annual cohort honoring pioneers in circularity and eco-restoration",
     "blindspot_warning": "Strict 3-year profitability requirement; early pre-revenue tech prototypes are disqualified.",
     "category": "Global Women-in-Tech",
-    "synopsis": "Legacy non-dilutive grant backing women-owned enterprises advancing circular economies, regenerative tech, and eco-innovation."
+    "synopsis": "Major philanthropic fund allocating significant non-dilutive capital to bold technical founders solving frontier AI challenges."
   },
   {
-    "id": "grant-women-who-tech",
-    "name": "Women Who Tech Emerging Tech Grant",
-    "funder": "Women Who Tech & Craigslist Founder Philanthropy",
+    "id": "grant-fearless-fund",
+    "name": "Fearless Foundation Women of Color Business Grant",
+    "funder": "Fearless Foundation & Corporate Allies",
     "max_amount_usd": 20000,
     "target_stage": "Prototype / MVP",
     "eligible_regions": [
@@ -943,13 +943,13 @@
       "Demonstrated working software prototype with beta user testing",
       "Transparent breakdown of how non-dilutive micro-grant will de-risk venture"
     ],
-    "application_url": "https://womenwhotech.org/grants",
+    "application_url": "https://www.fearless.fund/initiatives",
     "typical_turnaround": "4–6 weeks",
     "cycle_status": "Rolling / Always Open",
     "deadline_note": "Rolling equity-free grants to fund prototype validation",
     "blindspot_warning": "Excludes consumer lifestyle blogs or e-commerce resellers; must feature proprietary software IP.",
     "category": "Global Women-in-Tech",
-    "synopsis": "Rapid non-dilutive capital for female-led tech startups to fund engineering sprints, beta testing, and regulatory certifications."
+    "synopsis": "Pioneering foundation grant providing k–k non-dilutive capital and business acceleration tools for women of color entrepreneurs."
   },
   {
     "id": "grant-girlboss-foundation",
@@ -1111,10 +1111,10 @@
     "synopsis": "Non-dilutive funding for open-source democratic governance, collaborative data institutions, and plural technology experiments."
   },
   {
-    "id": "grant-openai-superalignment",
-    "name": "OpenAI Safety & Fast Research Grants",
-    "funder": "OpenAI Research Philanthropy",
-    "max_amount_usd": 100000,
+    "id": "grant-openai-researcher",
+    "name": "OpenAI Researcher Access & Fast Research Grants",
+    "funder": "OpenAI",
+    "max_amount_usd": 25000,
     "target_stage": "Prototype / MVP",
     "eligible_regions": [
       "Global"
@@ -1130,13 +1130,13 @@
       "Public pre-print publication or open-source GitHub model release",
       "Elite technical rigor in machine learning safety architecture"
     ],
-    "application_url": "https://openai.com/safety-grants",
+    "application_url": "https://openai.com/form/researcher-access-program/",
     "typical_turnaround": "3–4 weeks",
     "cycle_status": "Rolling / Always Open",
     "deadline_note": "Rolling grants for independent technical researchers and founders",
     "blindspot_warning": "Must involve technical AI safety/interpretability code; applied prompt engineering apps without safety research do not qualify.",
     "category": "Global Women-in-Tech",
-    "synopsis": "Financial grants and API compute support for independent technical founders and researchers studying AI safety and alignment."
+    "synopsis": "OpenAI access grants providing API credits and direct cash subsidies for researchers and early technical builders."
   },
   {
     "id": "grant-women-ai-awards",
@@ -1327,7 +1327,7 @@
       "High employment creation capacity especially for youth and women",
       "Bankable financial structure with verifiable creditworthiness"
     ],
-    "application_url": "https://www.afdb.org/en/afawa",
+    "application_url": "https://www.afdb.org/en/topics-and-sectors/initiatives-partnerships/affirmative-finance-action-women-africa-afawa",
     "typical_turnaround": "10–12 weeks",
     "cycle_status": "Active Q3/Q4 Window",
     "deadline_note": "Ongoing facility disbursed through participating commercial banks and DFIs",
@@ -1388,7 +1388,7 @@
       "Demonstrated MoM user growth and recurring revenue contracts",
       "Dynamic founding team capable of executing pan-African expansion"
     ],
-    "application_url": "https://meltwater.org/challenge/",
+    "application_url": "https://meltwater.org/mest-africa-challenge/",
     "typical_turnaround": "8 weeks",
     "cycle_status": "Annual Recurring Cycle",
     "deadline_note": "Annual competition covering Ghana, Nigeria, Kenya, South Africa, Senegal",
@@ -1419,7 +1419,7 @@
       "Demonstrated business traction and verified job creation for African youth",
       "Compelling personal resilience and ethical leadership"
     ],
-    "application_url": "https://anzishaprize.org/",
+    "application_url": "https://anzishaprize.org/apply/",
     "typical_turnaround": "8 weeks",
     "cycle_status": "Annual Recurring Cycle",
     "deadline_note": "Annual youth entrepreneurship fellowship and cash prizes",
@@ -1452,7 +1452,7 @@
       "Measurable climate adaptation or digital inclusion impact for vulnerable groups",
       "Matching fund commitment or operational co-investment capacity"
     ],
-    "application_url": "https://www.gsma.com/mobilefordevelopment/the-mobile-for-development-innovation-fund/",
+    "application_url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/the-mobile-for-development-innovation-fund/",
     "typical_turnaround": "12 weeks",
     "cycle_status": "Active Q3/Q4 Window",
     "deadline_note": "Large-scale grant rounds up to £200,000 (~$250,000 USD)",
@@ -1572,7 +1572,7 @@
       "Operational footprint in one of 17 Orange operating countries in Africa/MENA",
       "Special International Women's Prize dedicated to female-led solutions"
     ],
-    "application_url": "https://startup.orange.com/en/osvp/",
+    "application_url": "https://poesam.orange.com/en/",
     "typical_turnaround": "8 weeks",
     "cycle_status": "Annual Recurring Cycle",
     "deadline_note": "Includes €20,000 International Women's Prize alongside €25k grand prize",
@@ -1634,7 +1634,7 @@
       "High scalability and tangible socio-economic benefit for smallholder communities",
       "Active participation in 6-month international accelerator program"
     ],
-    "application_url": "https://www.bayer-foundation.com/wea",
+    "application_url": "https://bayerfoundation-wea.com",
     "typical_turnaround": "8 weeks",
     "cycle_status": "Annual Recurring Cycle",
     "deadline_note": "€25,000 cash grant + 24-week tailored executive scale coaching",
@@ -1665,7 +1665,7 @@
       "Strong tech prototype ready for real-world user validation",
       "Readiness to co-develop product sprints alongside BFA venture builders"
     ],
-    "application_url": "https://www.bfa-global.com/catalyst-fund/",
+    "application_url": "https://bfacatalystfund.com/",
     "typical_turnaround": "8 weeks",
     "cycle_status": "Active Q3/Q4 Window",
     "deadline_note": "$100k equity-free capital plus bespoke venture-building sprint support",
@@ -2075,7 +2075,7 @@
       "Initial market traction and operational MVP with verified customer base",
       "High growth potential with focus on scalable digital business models"
     ],
-    "application_url": "https://westerwelle-foundation.com/young-founders-programme/",
+    "application_url": "https://westerwelle-foundation.com",
     "typical_turnaround": "6 weeks",
     "cycle_status": "Biannual Cohort",
     "deadline_note": "Spring and Autumn cohorts with fully-funded Berlin conference residency",
@@ -2268,7 +2268,7 @@
       "Novel utility advancing on-chain adoption and frictionless user onboarding",
       "Open-source codebase with clean documentation and test suite"
     ],
-    "application_url": "https://base.org/builder-grants",
+    "application_url": "https://www.base.org/",
     "typical_turnaround": "2–4 weeks",
     "cycle_status": "Rolling / Always Open",
     "deadline_note": "Rapid weekly rolling review on GitHub and Base community channels",
@@ -2338,7 +2338,7 @@
       "Active grassroots community support mobilizing verified individual micro-donations",
       "Sybil-resistant on-chain Gitcoin Passport verification"
     ],
-    "application_url": "https://gitcoin.co/grants",
+    "application_url": "https://grants.gitcoin.co/",
     "typical_turnaround": "3–4 weeks",
     "cycle_status": "Biannual Cohort",
     "deadline_note": "Quarterly seasonal grant rounds (GG21, GG22, GG23)",
@@ -2368,7 +2368,7 @@
       "Open-source repository with measurable active developer downloads or smart contract transactions",
       "Transparent badgeholder disclosure and community impact metric attestation"
     ],
-    "application_url": "https://optimism.io/retropgf",
+    "application_url": "https://app.optimism.io/retropgf",
     "typical_turnaround": "6 weeks",
     "cycle_status": "Biannual Cohort",
     "deadline_note": "Millions of OP distributed retroactively across targeted impact rounds",
@@ -2667,7 +2667,7 @@
       "Innovative user onboarding leveraging zkLogin or sponsored gas transactions",
       "Comprehensive test documentation and security consideration"
     ],
-    "application_url": "https://sui.io/grants",
+    "application_url": "https://sui.io/developer-grants",
     "typical_turnaround": "3–5 weeks",
     "cycle_status": "Rolling / Always Open",
     "deadline_note": "Evaluated across multiple continuous monthly review batches",
@@ -2785,7 +2785,7 @@
       "High scalability and gas cost reduction for sovereign rollup chains",
       "Permissive open-source licensing and reproducible benchmark tests"
     ],
-    "application_url": "https://celestia.org/grants/",
+    "application_url": "https://celestia.org/",
     "typical_turnaround": "4 weeks",
     "cycle_status": "Rolling / Always Open",
     "deadline_note": "Continuous evaluation for modular rollup infrastructure and tooling",
