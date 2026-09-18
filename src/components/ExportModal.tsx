@@ -195,7 +195,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
 
               <div className="space-y-6">
                 {roadmap?.tranches.map((tranche) => (
-                  <div key={tranche.id} className="p-5 rounded-xl border border-slate-200 bg-slate-50/50">
+                  <div key={tranche.id} className="p-5 rounded-xl border border-slate-200 bg-slate-50/50 tranche-block print-avoid-break">
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
                       <h3 className="font-bold text-slate-900 text-sm sm:text-base font-serif">
                         Tranche {tranche.id}: {tranche.name}
@@ -235,7 +235,7 @@ export const ExportModal: React.FC<ExportModalProps> = ({
             </div>
 
             {/* Section 3: Committee Governance & Attestation Notice */}
-            <div>
+            <div className="print-avoid-break">
               <h2 className="text-lg font-bold text-purple-950 border-b border-slate-200 pb-2 mb-3 font-serif">
                 3. Committee Governance & Attestation Notice
               </h2>

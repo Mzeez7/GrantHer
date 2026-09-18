@@ -177,24 +177,84 @@
   }
 }
 
-/* Print-specific stylesheet overrides for 1-click clean PDF export */
+/* Print-specific stylesheet overrides for clean multi-page PDF export */
 @media print {
-  body {
-    background: white !important;
-    color: black !important;
+  @page {
+    margin: 12mm 15mm 15mm 15mm;
+    size: A4 portrait;
   }
 
+  html,
+  body {
+    background: white !important;
+    color: #0f172a !important;
+    height: auto !important;
+    min-height: auto !important;
+    overflow: visible !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Hide background overlays, headers, navs, footers, buttons */
   header,
   nav,
+  footer,
   button,
-  .no-print {
+  .no-print,
+  .aurora-container,
+  .aurora-blob {
     display: none !important;
   }
 
-  pre {
+  /* Break out the modal from fixed height & scroll container */
+  [role="dialog"] {
+    position: static !important;
+    inset: auto !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  [role="dialog"] > div {
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    box-shadow: none !important;
     border: none !important;
     background: transparent !important;
-    font-size: 10pt !important;
-    white-space: pre-wrap !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 0 !important;
+  }
+
+  [role="dialog"] .overflow-y-auto {
+    overflow: visible !important;
+    height: auto !important;
+    max-height: none !important;
+    padding: 0 !important;
+  }
+
+  /* Clean print block styling */
+  .print-page-break {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+
+  .print-avoid-break,
+  .tranche-block {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    margin-bottom: 18pt !important;
+  }
+
+  pre, blockquote {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
   }
 }

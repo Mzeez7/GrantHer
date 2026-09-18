@@ -1,6 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import crypto from 'crypto';
 import { getAnthropicClient } from './claude.js';
+import { checkRateLimit, recordApiCall } from './rateLimiter.js';
 import type { DiagnosticInput, Grant, MatchedGrant } from '../src/types/index.js';
 import grantsData from '../src/data/grants.json';
 
@@ -33,7 +34,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Invalid payload: DiagnosticInput is required.' });
   }
 
-  // 1. Check SHA-256 cache
+  // 1. Check SHA-256 cache (cached hits do not consume API credits or rate limit)
   const cacheKey = crypto
     .createHash('sha256')
     .update(JSON.stringify(diagnostic))
@@ -45,6 +46,18 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       success: true,
       cached: true,
       matches: cached.data,
+    });
+  }
+
+  // 2. Check Rate Limit (Max 3 Claude API calls per 10 minutes per IP)
+  const rateLimit = checkRateLimit(req);
+  if (!rateLimit.allowed) {
+    const mins = Math.ceil(rateLimit.resetAfterSeconds / 60);
+    return res.status(429).json({
+      error: 'Rate limit reached',
+      message: `You have reached the maximum limit of 3 AI analyses per 10-minute session to conserve credits. Please wait ${mins} minute(s) before generating another AI evaluation.`,
+      retryAfterSeconds: rateLimit.resetAfterSeconds,
+      remaining: 0,
     });
   }
 
@@ -202,7 +215,8 @@ Evaluate and output the top matched grants for this founder using the structured
     // Sort descending by matchScore
     matchedGrants.sort((a, b) => b.matchScore - a.matchScore);
 
-    // Save to cache
+    // Record rate limit usage and save to cache
+    recordApiCall(req);
     matchCache.set(cacheKey, { data: matchedGrants, timestamp: Date.now() });
 
     return res.status(200).json({

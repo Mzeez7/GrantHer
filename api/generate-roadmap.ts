@@ -1,6 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import crypto from 'crypto';
 import { getAnthropicClient } from './claude.js';
+import { checkRateLimit, recordApiCall } from './rateLimiter.js';
 import type { DiagnosticInput, Grant, CommitteeRoadmap, Tranche, Deliverable } from '../src/types/index.js';
 
 // In-memory cache keyed on SHA-256 of (DiagnosticInput + Grant ID)
@@ -53,7 +54,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Invalid payload: Both diagnostic and grant are required.' });
   }
 
-  // 1. Check SHA-256 cache
+  // 1. Check SHA-256 cache (cache hits do not consume API credits or rate limit)
   const cacheKey = crypto
     .createHash('sha256')
     .update(JSON.stringify({ diagnostic, grantId: grant.id }))
@@ -65,6 +66,18 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       success: true,
       cached: true,
       roadmap: cached.data,
+    });
+  }
+
+  // 2. Check Rate Limit (Max 3 Claude API calls per 10 minutes per IP)
+  const rateLimit = checkRateLimit(req);
+  if (!rateLimit.allowed) {
+    const mins = Math.ceil(rateLimit.resetAfterSeconds / 60);
+    return res.status(429).json({
+      error: 'Rate limit reached',
+      message: `You have reached the maximum limit of 3 AI analyses per 10-minute session to conserve credits. Please wait ${mins} minute(s) before generating another AI evaluation.`,
+      retryAfterSeconds: rateLimit.resetAfterSeconds,
+      remaining: 0,
     });
   }
 
@@ -228,7 +241,8 @@ Generate the exact 3-tranche committee roadmap using the output_committee_roadma
       tranches: processedTranches,
     };
 
-    // Cache the generated roadmap
+    // Record rate limit usage and cache the generated roadmap
+    recordApiCall(req);
     roadmapCache.set(cacheKey, { data: completedRoadmap, timestamp: Date.now() });
 
     return res.status(200).json({

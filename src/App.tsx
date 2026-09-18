@@ -144,18 +144,23 @@ export const App: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     try {
-      const { matches, isAiPowered } = await matchGrantsWithClaude(input);
+      const { matches, isAiPowered, rateLimitMessage } = await matchGrantsWithClaude(input);
       const all = getAllEvaluatedGrants(input);
 
       setTopMatches(matches);
       setAllEvaluatedGrants(all);
       setCurrentStep(2);
       fireCelebration();
-      showToast(
-        isAiPowered
-          ? `Claude AI matched ${matches.length} high-fit opportunities with verified eligibility.`
-          : `Identified ${matches.length} high-fit opportunities from 100 verified funds.`
-      );
+      
+      if (rateLimitMessage) {
+        showToast(rateLimitMessage);
+      } else {
+        showToast(
+          isAiPowered
+            ? `Claude AI matched ${matches.length} high-fit opportunities with verified eligibility.`
+            : `Identified ${matches.length} high-fit opportunities from 100 verified funds.`
+        );
+      }
     } catch (e) {
       console.error('Diagnostic matching error:', e);
       const fallbackTop = getTopMatches(input, 3);
@@ -177,15 +182,20 @@ export const App: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     try {
-      const { roadmap: generatedRoadmap, isAiPowered } = await generateRoadmapWithClaude(matched, diagnosticInput);
+      const { roadmap: generatedRoadmap, isAiPowered, rateLimitMessage } = await generateRoadmapWithClaude(matched, diagnosticInput);
       setRoadmap(generatedRoadmap);
       setCurrentStep(3);
       fireCelebration();
-      showToast(
-        isAiPowered
-          ? `Claude AI synthesized 3-tranche committee roadmap with verified milestone deliverables.`
-          : `Synthesized 3-tranche committee roadmap for ${matched.name}.`
-      );
+
+      if (rateLimitMessage) {
+        showToast(rateLimitMessage);
+      } else {
+        showToast(
+          isAiPowered
+            ? `Claude AI synthesized 3-tranche committee roadmap with verified milestone deliverables.`
+            : `Synthesized 3-tranche committee roadmap for ${matched.name}.`
+        );
+      }
     } catch (e) {
       console.error('Roadmap generation error:', e);
       const fallback = generateCommitteeRoadmap(matched, diagnosticInput);

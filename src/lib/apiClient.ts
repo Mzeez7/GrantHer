@@ -4,12 +4,19 @@ import { generateCommitteeRoadmap } from './roadmapGenerator';
 
 const API_TIMEOUT_MS = 15000; // 15s timeout
 
+export interface ApiResponse<T> {
+  data: T;
+  isAiPowered: boolean;
+  rateLimitExceeded?: boolean;
+  rateLimitMessage?: string;
+}
+
 /**
  * Evaluates candidate grants using Claude API, with seamless fallback to deterministic matching.
  */
 export async function matchGrantsWithClaude(
   diagnostic: DiagnosticInput
-): Promise<{ matches: MatchedGrant[]; isAiPowered: boolean }> {
+): Promise<{ matches: MatchedGrant[]; isAiPowered: boolean; rateLimitMessage?: string }> {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), API_TIMEOUT_MS);
 
@@ -22,6 +29,14 @@ export async function matchGrantsWithClaude(
     });
 
     clearTimeout(timeoutId);
+
+    if (res.status === 429) {
+      const errData = await res.json().catch(() => null);
+      const msg = errData?.message || 'Rate limit reached (3 AI evaluations per 10 mins). Using deterministic matching.';
+      console.warn('[Claude Match Rate Limited]', msg);
+      const fallbackMatches = getTopMatches(diagnostic, 3);
+      return { matches: fallbackMatches, isAiPowered: false, rateLimitMessage: msg };
+    }
 
     if (res.ok) {
       const data = await res.json();
@@ -45,7 +60,7 @@ export async function matchGrantsWithClaude(
 export async function generateRoadmapWithClaude(
   selectedGrant: Grant | MatchedGrant,
   diagnostic: DiagnosticInput
-): Promise<{ roadmap: CommitteeRoadmap; isAiPowered: boolean }> {
+): Promise<{ roadmap: CommitteeRoadmap; isAiPowered: boolean; rateLimitMessage?: string }> {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), API_TIMEOUT_MS);
 
@@ -58,6 +73,18 @@ export async function generateRoadmapWithClaude(
     });
 
     clearTimeout(timeoutId);
+
+    if (res.status === 429) {
+      const errData = await res.json().catch(() => null);
+      const msg = errData?.message || 'Rate limit reached (3 AI calls per 10 mins). Using verified roadmap generator.';
+      console.warn('[Claude Roadmap Rate Limited]', msg);
+      const matched: MatchedGrant =
+        'matchScore' in selectedGrant
+          ? selectedGrant
+          : evaluateGrantFit(selectedGrant, diagnostic);
+      const fallbackRoadmap = generateCommitteeRoadmap(matched, diagnostic);
+      return { roadmap: fallbackRoadmap, isAiPowered: false, rateLimitMessage: msg };
+    }
 
     if (res.ok) {
       const data = await res.json();
