@@ -25,9 +25,9 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           {/* Brand Mark */}
           <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <img
-              src="/logo-white.png"
+              src="/logo.png"
               alt="GrantHer — Empowering Women. Securing Futures."
-              className="h-9 sm:h-10 w-auto object-contain hover:opacity-90 transition-opacity"
+              className="h-10 sm:h-11 w-auto object-contain rounded-xl shadow-sm hover:opacity-95 transition-opacity"
             />
           </div>
 
@@ -537,9 +537,9 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
               <img
-                src="/logo-dark.png"
+                src="/logo.png"
                 alt="GrantHer — Empowering Women. Securing Futures."
-                className="h-10 sm:h-11 w-auto object-contain"
+                className="h-11 sm:h-12 w-auto object-contain rounded-xl shadow-sm"
               />
             </div>
             <p className="text-sm text-brand-slate-600 max-w-md font-sans leading-relaxed">
